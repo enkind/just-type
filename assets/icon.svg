@@ -1,4 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#0891b2"/>
-  <text x="32" y="32" dy="0.35em" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="26" font-weight="600" fill="#ffffff">JT</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512">
+  <title>JustType</title>
+  <desc>A white keycap on a cobalt tile: X on top, Й on the front, the layout globe on the side. On the Bulgarian BDS layout the X key types Й.</desc>
+  <defs>
+  <linearGradient id="sa" x1="16.320973962699657" x2="83.67902603730033" y1="0" y2="0" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#F4F6FA"/><stop offset="0.5567226776345121" stop-color="#F4F6FA"/>
+  <stop offset="0.6367226776345122" stop-color="#C7D0DF"/><stop offset="1" stop-color="#AEB9CC"/></linearGradient>
+  <linearGradient id="va" x1="0" x2="0" y1="0" y2="1"><stop offset=".45" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".14"/></linearGradient>
+  <radialGradient id="ta" cx=".45" cy=".45" r=".7"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F3F5F9"/></radialGradient>
+  <filter id="sha" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="#2448FF"/>
+  <path d="M16.32 64.02L16.67 62.92L25.56 36.04L26.11 35.21L38.14 21.29L38.94 20.54L39.97 19.91L41.18 19.41L42.53 19.06L43.96 18.88L45.42 18.88L46.85 19.06L48.20 19.40L70.81 26.80L72.02 27.30L73.06 27.93L73.87 28.68L74.43 29.50L83.32 53.70L83.68 54.80L83.68 55.93L83.33 57.03L82.63 58.07L65.68 77.70L64.67 78.63L63.38 79.43L61.87 80.05L60.19 80.48L58.40 80.71L56.57 80.71L54.79 80.49L53.10 80.06L21.21 69.63L19.69 69.01L18.40 68.21L17.39 67.28L16.68 66.24L16.32 65.14Z" transform="translate(0 4)" fill="#000" opacity="0.35" filter="url(#sha)"/>
+  <path d="M16.32 64.02L16.67 62.92L25.56 36.04L26.11 35.21L38.14 21.29L38.94 20.54L39.97 19.91L41.18 19.41L42.53 19.06L43.96 18.88L45.42 18.88L46.85 19.06L48.20 19.40L70.81 26.80L72.02 27.30L73.06 27.93L73.87 28.68L74.43 29.50L83.32 53.70L83.68 54.80L83.68 55.93L83.33 57.03L82.63 58.07L65.68 77.70L64.67 78.63L63.38 79.43L61.87 80.05L60.19 80.48L58.40 80.71L56.57 80.71L54.79 80.49L53.10 80.06L21.21 69.63L19.69 69.01L18.40 68.21L17.39 67.28L16.68 66.24L16.32 65.14Z" fill="url(#sa)" stroke="url(#sa)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M16.32 64.02L16.67 62.92L25.56 36.04L26.11 35.21L38.14 21.29L38.94 20.54L39.97 19.91L41.18 19.41L42.53 19.06L43.96 18.88L45.42 18.88L46.85 19.06L48.20 19.40L70.81 26.80L72.02 27.30L73.06 27.93L73.87 28.68L74.43 29.50L83.32 53.70L83.68 54.80L83.68 55.93L83.33 57.03L82.63 58.07L65.68 77.70L64.67 78.63L63.38 79.43L61.87 80.05L60.19 80.48L58.40 80.71L56.57 80.71L54.79 80.49L53.10 80.06L21.21 69.63L19.69 69.01L18.40 68.21L17.39 67.28L16.68 66.24L16.32 65.14Z" fill="url(#va)" stroke="url(#va)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M61.86 46.92L61.06 47.66L60.03 48.30L58.82 48.80L57.47 49.15L56.04 49.32L54.58 49.32L53.15 49.15L51.80 48.81L29.19 41.41L27.98 40.91L26.94 40.28L26.13 39.53L25.57 38.70L25.28 37.82L25.28 36.92L25.56 36.04L26.11 35.21L38.14 21.29L38.94 20.54L39.97 19.91L41.18 19.41L42.53 19.06L43.96 18.88L45.42 18.88L46.85 19.06L48.20 19.40L70.81 26.80L72.02 27.30L73.06 27.93L73.87 28.68L74.43 29.50L74.72 30.39L74.72 31.28L74.44 32.16L73.89 32.99Z" fill="url(#ta)" stroke="#FFFFFF" stroke-width="1.6"/>
+  <g transform="matrix(0.4831203521397044 0.15815090298280518 -0.25687964786029566 0.29743858875818185 50 34.103448732848406)"><path d="M-17 -17L17 17M17 -17L-17 17" stroke="#14161C" stroke-width="10" stroke-linecap="round" fill="none"/></g>
+  <g transform="matrix(0.4831203521397044 0.15815090298280518 -0.05439512521209047 0.4843799302950524 38.825735318077136 59.97724691466449)"><g transform="scale(1) translate(0 1.35)" stroke="#FF5A1F" stroke-width="6.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M-12 -7V17L12 -7V17"/><path d="M-6 -19.5Q0 -12.5 6 -19.5"/></g></g>
+  <g transform="matrix(0.25687964786029566 -0.29743858875818185 0.10230235157220605 0.4548852966354234 71.01573531807713 53.91823258343561)"><g stroke="#2448FF" fill="none" stroke-linecap="round"><circle r="17" stroke-width="5"/><ellipse rx="7.5" ry="17" stroke-width="4"/><path d="M-17 0H17" stroke-width="3.6"/></g></g>
 </svg>

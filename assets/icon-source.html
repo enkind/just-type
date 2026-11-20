@@ -1,0 +1,73 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+  .grid{display:grid;grid-template-columns:1fr;gap:14px;max-width:460px}
+  .card h3{font:600 13px/1.2 var(--font-sans);margin:6px 0 2px}
+  .card p{font:12px/1.35 var(--font-sans);color:var(--muted-foreground);margin:0}
+  .big{width:100%;aspect-ratio:1;display:block}
+  .small{display:flex;gap:10px;margin-top:6px;align-items:center}
+  .small svg{display:block}
+</style></head><body>
+<div class="grid" id="g"></div>
+<script>
+const h=0.6, t=0.13, R=0.17, TH=28*Math.PI/180, PH=38*Math.PI/180;
+const L0=(x,y,z)=>[x*Math.cos(TH)-y*Math.sin(TH),(x*Math.sin(TH)+y*Math.cos(TH))*Math.sin(PH)-z*Math.cos(PH)];
+const cs=[[0,0,0],[1,0,0],[0,1,0],[1,1,0],[t,t,h],[1-t,t,h],[t,1-t,h],[1-t,1-t,h]].map(p=>L0(...p));
+const bx=[Math.min(...cs.map(c=>c[0])),Math.max(...cs.map(c=>c[0]))], by=[Math.min(...cs.map(c=>c[1])),Math.max(...cs.map(c=>c[1]))];
+const S=74/Math.max(bx[1]-bx[0],by[1]-by[0]);
+const ox=50-(bx[0]+bx[1])/2*S, oy=50-(by[0]+by[1])/2*S;
+const L=(x,y,z)=>L0(x,y,z).map(n=>n*S);
+const P=(x,y,z)=>{const l=L(x,y,z);return [l[0]+ox,l[1]+oy]};
+const norm=v=>{const l=Math.hypot(...v);return v.map(n=>n/l)};
+const f2=n=>n.toFixed(2);
+
+// rounded-square outline sampled in world space at height z
+const rr=(lo,hi,r,z)=>{const o=[];const c=[[hi-r,hi-r,0],[lo+r,hi-r,90],[lo+r,lo+r,180],[hi-r,lo+r,270]];
+  for(const [cx,cy,a0] of c) for(let i=0;i<=8;i++){const a=(a0+i*90/8)*Math.PI/180;o.push([cx+r*Math.cos(a),cy+r*Math.sin(a),z]);}return o;};
+const hull=ps=>{ps=ps.slice().sort((a,b)=>a[0]-b[0]||a[1]-b[1]);const cr=(o,a,b)=>(a[0]-o[0])*(b[1]-o[1])-(a[1]-o[1])*(b[0]-o[0]);
+  const lo=[],up=[];for(const p of ps){while(lo.length>1&&cr(lo[lo.length-2],lo[lo.length-1],p)<=0)lo.pop();lo.push(p);}
+  for(const p of ps.slice().reverse()){while(up.length>1&&cr(up[up.length-2],up[up.length-1],p)<=0)up.pop();up.push(p);}
+  return lo.slice(0,-1).concat(up.slice(0,-1));};
+const body=hull([...rr(0,1,R,0),...rr(t,1-t,R*.8,h)].map(p=>P(...p)));
+const bodyD="M"+body.map(p=>p.map(f2).join(" ")).join("L")+"Z";
+const topD="M"+rr(t,1-t,R*.8,h).map(p=>P(...p).map(f2).join(" ")).join("L")+"Z";
+const xs=body.map(p=>p[0]); const minX=Math.min(...xs), maxX=Math.max(...xs);
+const cornerX=(P(1,1,0)[0]+P(1-t,1-t,h)[0])/2 - 4;
+const k=(cornerX-minX)/(maxX-minX);
+
+const face=(c3,e1,up)=>{const a=L(...e1),b=L(...up.map(n=>-n)),o=P(...c3),m=.01;
+  return `matrix(${a[0]*m} ${a[1]*m} ${b[0]*m} ${b[1]*m} ${o[0]} ${o[1]})`};
+const TOP=face([.5,.5,h],[1,0,0],[0,-1,0]);
+const FS=.5, FRONT=face([.5,1-t*FS,h*FS],[1,0,0],norm([0,-t,h]));
+const RIGHT=face([1-t*.5,.5,h*.5],[0,-1,0],norm([-t,0,h]));
+const SL=Math.hypot(t,h)*100; // slant height of a side face, in legend units
+
+const X=c=>`<path d="M-17 -17L17 17M17 -17L-17 17" stroke="${c}" stroke-width="10" stroke-linecap="round" fill="none"/>`;
+const YS=Math.min(1,(SL-14)/43.3);
+const Y=c=>`<g transform="scale(${YS}) translate(0 1.35)" stroke="${c}" stroke-width="6.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M-12 -7V17L12 -7V17"/><path d="M-6 -19.5Q0 -12.5 6 -19.5"/></g>`;
+const G=c=>`<g stroke="${c}" fill="none" stroke-linecap="round"><circle r="17" stroke-width="5"/><ellipse rx="7.5" ry="17" stroke-width="4"/><path d="M-17 0H17" stroke-width="3.6"/></g>`;
+
+const key=(id,c)=>`
+ <defs>
+  <linearGradient id="s${id}" x1="${minX}" x2="${maxX}" y1="0" y2="0" gradientUnits="userSpaceOnUse">
+   <stop offset="0" stop-color="${c.front}"/><stop offset="${k-.03}" stop-color="${c.front}"/>
+   <stop offset="${k+.05}" stop-color="${c.right}"/><stop offset="1" stop-color="${c.rightD}"/></linearGradient>
+  <linearGradient id="v${id}" x1="0" x2="0" y1="0" y2="1"><stop offset=".45" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".14"/></linearGradient>
+  <radialGradient id="t${id}" cx=".45" cy=".45" r=".7"><stop offset="0" stop-color="${c.topC}"/><stop offset="1" stop-color="${c.top}"/></radialGradient>
+  <filter id="sh${id}" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.4"/></filter>
+ </defs>
+ <rect width="100" height="100" rx="22" fill="${c.bg}"/>
+ <path d="${bodyD}" transform="translate(0 4)" fill="#000" opacity="${c.shadow}" filter="url(#sh${id})"/>
+ <path d="${bodyD}" fill="url(#s${id})" stroke="url(#s${id})" stroke-width="3" stroke-linejoin="round"/>
+ <path d="${bodyD}" fill="url(#v${id})" stroke="url(#v${id})" stroke-width="3" stroke-linejoin="round"/>
+ <path d="${topD}" fill="url(#t${id})" stroke="${c.rim}" stroke-width="1.6"/>
+ <g transform="${TOP}">${X(c.x)}</g>
+ <g transform="${FRONT}">${Y(c.y)}</g>${GUIDE?`<g transform="${FRONT}"><rect x="-43" y="${-SL/2}" width="86" height="${SL}" fill="none" stroke="#0f0" stroke-width=".8"/></g>`:""}
+ <g transform="${RIGHT}">${G(c.g)}</g>`;
+
+const ways=[["a","Cobalt",{bg:"#2448FF",front:"#F4F6FA",right:"#C7D0DF",rightD:"#AEB9CC",top:"#F3F5F9",topC:"#FFFFFF",rim:"#FFFFFF",x:"#14161C",y:"#FF5A1F",g:"#2448FF",shadow:.35}]];
+const GUIDE=new URLSearchParams(location.search).has("guide");
+const svg=(inner,s)=>`<svg viewBox="0 0 100 100" ${s?`width="${s}" height="${s}"`:'class="big"'}>${inner}</svg>`;
+document.getElementById("g").innerHTML=ways.map(([id,name,c])=>`<div class="card">${svg(key(id,c))}
+ <div class="small">${svg(key(id+"2",c),48)}${svg(key(id+"3",c),32)}${svg(key(id+"4",c),16)}</div></div>`).join("");
+</script>
+</body></html>
