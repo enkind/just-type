@@ -1,0 +1,2 @@
+bench start label=rekey n=60
+bench done

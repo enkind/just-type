@@ -1,0 +1,3925 @@
+{
+ "val": {
+  "dict": {
+   "ff_per_1k": 1.649127386192414,
+   "miss_rate": 0.13304375804375804,
+   "detect_rate": 0.8346674876847291,
+   "early_rate": 0.0,
+   "keys_to_detect": 6.797860568056068,
+   "episode_exact": 0.8573333333333333
+  },
+  "dict+freq": {
+   "ff_per_1k": 2.4440305147887575,
+   "miss_rate": 0.0826898326898327,
+   "detect_rate": 0.8783866995073891,
+   "early_rate": 0.0,
+   "keys_to_detect": 6.29863301787592,
+   "episode_exact": 0.8878333333333334
+  },
+  "dict+prefix3": {
+   "ff_per_1k": 5.9439771257726575,
+   "miss_rate": 0.09427284427284427,
+   "detect_rate": 0.9030172413793104,
+   "early_rate": 0.5975985221674877,
+   "keys_to_detect": 4.406750767132629,
+   "episode_exact": 0.8406666666666667
+  },
+  "dict+freq+prefix3": {
+   "ff_per_1k": 6.738880254369001,
+   "miss_rate": 0.044723294723294726,
+   "detect_rate": 0.9461206896551724,
+   "early_rate": 0.5791256157635468,
+   "keys_to_detect": 4.118125610152945,
+   "episode_exact": 0.8723333333333333
+  },
+  "model-safe": {
+   "ff_per_1k": 1.2813363863941059,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9886083743842364,
+   "early_rate": 0.7983374384236454,
+   "keys_to_detect": 2.989099968857054,
+   "episode_exact": 0.9703333333333334
+  },
+  "model-balanced": {
+   "ff_per_1k": 0.6288039673971075,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9842980295566502,
+   "early_rate": 0.6354679802955665,
+   "keys_to_detect": 3.9227400688145138,
+   "episode_exact": 0.9775
+  },
+  "model-wordend": {
+   "ff_per_1k": 0.8779527091959615,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9766009852216748,
+   "early_rate": 0.0,
+   "keys_to_detect": 6.182534678436318,
+   "episode_exact": 0.9751666666666666
+  }
+ },
+ "test": {
+  "dict": {
+   "ff_per_1k": 1.590410311970442,
+   "miss_rate": 0.14946849359363001,
+   "detect_rate": 0.8253663776567176,
+   "early_rate": 0.0,
+   "keys_to_detect": 6.74491029097332,
+   "episode_exact": 0.8514166666666667
+  },
+  "dict+freq": {
+   "ff_per_1k": 2.441175653526683,
+   "miss_rate": 0.09114425447637525,
+   "detect_rate": 0.8787692779866493,
+   "early_rate": 0.0,
+   "keys_to_detect": 6.211123723041998,
+   "episode_exact": 0.8883333333333333
+  },
+  "dict+prefix3": {
+   "ff_per_1k": 6.566519432174903,
+   "miss_rate": 0.11167697344488905,
+   "detect_rate": 0.8854446405278907,
+   "early_rate": 0.6027008363385253,
+   "keys_to_detect": 4.364991334488735,
+   "episode_exact": 0.833125
+  },
+  "dict+freq+prefix3": {
+   "ff_per_1k": 7.4172847737311445,
+   "miss_rate": 0.05476739016207914,
+   "detect_rate": 0.9368526049259572,
+   "early_rate": 0.577610680580066,
+   "keys_to_detect": 4.081981981981982,
+   "episode_exact": 0.8687083333333333
+  },
+  "model-safe": {
+   "ff_per_1k": 6.101202878017612,
+   "miss_rate": 0.030031122428357787,
+   "detect_rate": 0.9671602854292949,
+   "early_rate": 0.7675899639376966,
+   "keys_to_detect": 3.1328044426814756,
+   "episode_exact": 0.9105
+  },
+  "model-balanced": {
+   "ff_per_1k": 3.222490763119149,
+   "miss_rate": 0.03597267693302615,
+   "detect_rate": 0.9591805417018338,
+   "early_rate": 0.5519834266861045,
+   "keys_to_detect": 4.2391808655307575,
+   "episode_exact": 0.9350833333333334
+  },
+  "model-wordend": {
+   "ff_per_1k": 4.055893546684446,
+   "miss_rate": 0.031001172143405684,
+   "detect_rate": 0.9602547379728382,
+   "early_rate": 0.0,
+   "keys_to_detect": 6.182820615261686,
+   "episode_exact": 0.9310416666666667
+  }
+ },
+ "test_full": {
+  "dict": {
+   "all": {
+    "all": {
+     "wrong_tokens": 24741,
+     "miss_rate": 0.14946849359363001,
+     "correct_tokens": 287976,
+     "ff_per_1k": 1.590410311970442
+    },
+    "bg": {
+     "wrong_tokens": 15311,
+     "miss_rate": 0.13434785448370454,
+     "correct_tokens": 178419,
+     "ff_per_1k": 2.006512759291331
+    },
+    "code": {
+     "wrong_tokens": 996,
+     "miss_rate": 0.4839357429718876,
+     "correct_tokens": 3463,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 9430,
+     "miss_rate": 0.17401908801696714,
+     "correct_tokens": 109557,
+     "ff_per_1k": 0.9127668702136787
+    },
+    "mixed_ep": {
+     "wrong_tokens": 14409,
+     "miss_rate": 0.17412728156013602,
+     "correct_tokens": 119455,
+     "ff_per_1k": 1.548700347411159
+    },
+    "name": {
+     "wrong_tokens": 1786,
+     "miss_rate": 0.1948488241881299,
+     "correct_tokens": 21203,
+     "ff_per_1k": 9.102485497335282
+    },
+    "oov": {
+     "wrong_tokens": 3105,
+     "miss_rate": 0.567793880837359,
+     "correct_tokens": 24153,
+     "ff_per_1k": 16.561089719703556
+    },
+    "short": {
+     "wrong_tokens": 6457,
+     "miss_rate": 0.28372309121883227,
+     "correct_tokens": 79073,
+     "ff_per_1k": 1.6819900598181428
+    },
+    "tech": {
+     "wrong_tokens": 1978,
+     "miss_rate": 0.1577350859453994,
+     "correct_tokens": 4985,
+     "ff_per_1k": 0.0
+    },
+    "term": {
+     "wrong_tokens": 2974,
+     "miss_rate": 0.26698049764626763,
+     "correct_tokens": 8448,
+     "ff_per_1k": 0.0
+    },
+    "typo": {
+     "wrong_tokens": 582,
+     "miss_rate": 0.49140893470790376,
+     "correct_tokens": 7930,
+     "ff_per_1k": 24.211853720050442
+    },
+    "runs": {
+     "n": 13033,
+     "detect_rate": 0.8253663776567176,
+     "early_rate": 0.0,
+     "mean_keys_to_detect": 6.74491029097332
+    },
+    "episodes": {
+     "n": 24000,
+     "exact": 0.8514166666666667
+    }
+   },
+   "leipzig": {
+    "all": {
+     "wrong_tokens": 9549,
+     "miss_rate": 0.13111320557126402,
+     "correct_tokens": 172637,
+     "ff_per_1k": 1.882562834154903
+    },
+    "bg": {
+     "wrong_tokens": 6009,
+     "miss_rate": 0.1108337493759361,
+     "correct_tokens": 107745,
+     "ff_per_1k": 2.301730938790663
+    },
+    "code": {
+     "wrong_tokens": 340,
+     "miss_rate": 0.4852941176470588,
+     "correct_tokens": 1023,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 3540,
+     "miss_rate": 0.1655367231638418,
+     "correct_tokens": 64892,
+     "ff_per_1k": 1.1865869444615669
+    },
+    "mixed_ep": {
+     "wrong_tokens": 5569,
+     "miss_rate": 0.15352846112407972,
+     "correct_tokens": 69579,
+     "ff_per_1k": 1.9833570473849869
+    },
+    "name": {
+     "wrong_tokens": 884,
+     "miss_rate": 0.2081447963800905,
+     "correct_tokens": 14654,
+     "ff_per_1k": 12.215094854647194
+    },
+    "oov": {
+     "wrong_tokens": 1304,
+     "miss_rate": 0.5843558282208589,
+     "correct_tokens": 15319,
+     "ff_per_1k": 18.66962595469678
+    },
+    "short": {
+     "wrong_tokens": 2334,
+     "miss_rate": 0.20308483290488433,
+     "correct_tokens": 45756,
+     "ff_per_1k": 2.163650668764752
+    },
+    "tech": {
+     "wrong_tokens": 704,
+     "miss_rate": 0.14630681818181818,
+     "correct_tokens": 1544,
+     "ff_per_1k": 0.0
+    },
+    "term": {
+     "wrong_tokens": 1044,
+     "miss_rate": 0.2567049808429119,
+     "correct_tokens": 2567,
+     "ff_per_1k": 0.0
+    },
+    "typo": {
+     "wrong_tokens": 228,
+     "miss_rate": 0.4473684210526316,
+     "correct_tokens": 4891,
+     "ff_per_1k": 18.810059292578206
+    },
+    "runs": {
+     "n": 4786,
+     "detect_rate": 0.842039281236941,
+     "early_rate": 0.0,
+     "mean_keys_to_detect": 7.061786600496278
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.833125
+    }
+   },
+   "subs": {
+    "all": {
+     "wrong_tokens": 7235,
+     "miss_rate": 0.1676572218382861,
+     "correct_tokens": 51233,
+     "ff_per_1k": 1.5614935685983644
+    },
+    "bg": {
+     "wrong_tokens": 4400,
+     "miss_rate": 0.16522727272727272,
+     "correct_tokens": 32502,
+     "ff_per_1k": 1.8152729062826902
+    },
+    "code": {
+     "wrong_tokens": 338,
+     "miss_rate": 0.47337278106508873,
+     "correct_tokens": 1284,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 2835,
+     "miss_rate": 0.17142857142857143,
+     "correct_tokens": 18731,
+     "ff_per_1k": 1.1211360845656932
+    },
+    "mixed_ep": {
+     "wrong_tokens": 4151,
+     "miss_rate": 0.19778366658636473,
+     "correct_tokens": 22565,
+     "ff_per_1k": 1.2408597385331266
+    },
+    "name": {
+     "wrong_tokens": 495,
+     "miss_rate": 0.18787878787878787,
+     "correct_tokens": 3327,
+     "ff_per_1k": 3.306281935677788
+    },
+    "oov": {
+     "wrong_tokens": 961,
+     "miss_rate": 0.5390218522372529,
+     "correct_tokens": 4556,
+     "ff_per_1k": 13.388937664618085
+    },
+    "short": {
+     "wrong_tokens": 1988,
+     "miss_rate": 0.3375251509054326,
+     "correct_tokens": 14989,
+     "ff_per_1k": 1.9347521515778237
+    },
+    "tech": {
+     "wrong_tokens": 618,
+     "miss_rate": 0.16990291262135923,
+     "correct_tokens": 1773,
+     "ff_per_1k": 0.0
+    },
+    "term": {
+     "wrong_tokens": 956,
+     "miss_rate": 0.27719665271966526,
+     "correct_tokens": 3057,
+     "ff_per_1k": 0.0
+    },
+    "typo": {
+     "wrong_tokens": 163,
+     "miss_rate": 0.5521472392638037,
+     "correct_tokens": 1304,
+     "ff_per_1k": 37.576687116564415
+    },
+    "runs": {
+     "n": 4117,
+     "detect_rate": 0.796939519067282,
+     "early_rate": 0.0,
+     "mean_keys_to_detect": 6.531545260591283
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.861
+    }
+   },
+   "tatoeba": {
+    "all": {
+     "wrong_tokens": 7957,
+     "miss_rate": 0.1549578987055423,
+     "correct_tokens": 64106,
+     "ff_per_1k": 0.8267556858952361
+    },
+    "bg": {
+     "wrong_tokens": 4902,
+     "miss_rate": 0.13545491636066911,
+     "correct_tokens": 38172,
+     "ff_per_1k": 1.3360578434454573
+    },
+    "code": {
+     "wrong_tokens": 318,
+     "miss_rate": 0.4937106918238994,
+     "correct_tokens": 1156,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 3055,
+     "miss_rate": 0.18625204582651392,
+     "correct_tokens": 25934,
+     "ff_per_1k": 0.0771188401326444
+    },
+    "mixed_ep": {
+     "wrong_tokens": 4689,
+     "miss_rate": 0.17764981872467478,
+     "correct_tokens": 27311,
+     "ff_per_1k": 0.6956903811650983
+    },
+    "name": {
+     "wrong_tokens": 407,
+     "miss_rate": 0.17444717444717445,
+     "correct_tokens": 3222,
+     "ff_per_1k": 0.931098696461825
+    },
+    "oov": {
+     "wrong_tokens": 840,
+     "miss_rate": 0.575,
+     "correct_tokens": 4278,
+     "ff_per_1k": 12.388966806919122
+    },
+    "short": {
+     "wrong_tokens": 2135,
+     "miss_rate": 0.3217798594847775,
+     "correct_tokens": 18328,
+     "ff_per_1k": 0.2728066346573549
+    },
+    "tech": {
+     "wrong_tokens": 656,
+     "miss_rate": 0.15853658536585366,
+     "correct_tokens": 1668,
+     "ff_per_1k": 0.0
+    },
+    "term": {
+     "wrong_tokens": 974,
+     "miss_rate": 0.2679671457905544,
+     "correct_tokens": 2824,
+     "ff_per_1k": 0.0
+    },
+    "typo": {
+     "wrong_tokens": 191,
+     "miss_rate": 0.49214659685863876,
+     "correct_tokens": 1735,
+     "ff_per_1k": 29.394812680115272
+    },
+    "runs": {
+     "n": 4130,
+     "detect_rate": 0.8343825665859564,
+     "early_rate": 0.0,
+     "mean_keys_to_detect": 6.577481137550784
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.860125
+    }
+   }
+  },
+  "dict+freq": {
+   "all": {
+    "all": {
+     "wrong_tokens": 24741,
+     "miss_rate": 0.09114425447637525,
+     "correct_tokens": 287976,
+     "ff_per_1k": 2.441175653526683
+    },
+    "bg": {
+     "wrong_tokens": 15311,
+     "miss_rate": 0.051596891124028474,
+     "correct_tokens": 178419,
+     "ff_per_1k": 3.3348466250791677
+    },
+    "code": {
+     "wrong_tokens": 996,
+     "miss_rate": 0.4819277108433735,
+     "correct_tokens": 3463,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 9430,
+     "miss_rate": 0.15535524920466595,
+     "correct_tokens": 109557,
+     "ff_per_1k": 0.985788219830773
+    },
+    "mixed_ep": {
+     "wrong_tokens": 14409,
+     "miss_rate": 0.11451176348115762,
+     "correct_tokens": 119455,
+     "ff_per_1k": 2.2937507848143652
+    },
+    "name": {
+     "wrong_tokens": 1786,
+     "miss_rate": 0.1539753639417693,
+     "correct_tokens": 21203,
+     "ff_per_1k": 11.460642361929915
+    },
+    "oov": {
+     "wrong_tokens": 3105,
+     "miss_rate": 0.5581320450885668,
+     "correct_tokens": 24153,
+     "ff_per_1k": 22.233262948702023
+    },
+    "short": {
+     "wrong_tokens": 6457,
+     "miss_rate": 0.08626297041969955,
+     "correct_tokens": 79073,
+     "ff_per_1k": 3.5663247884865883
+    },
+    "tech": {
+     "wrong_tokens": 1978,
+     "miss_rate": 0.1577350859453994,
+     "correct_tokens": 4985,
+     "ff_per_1k": 0.0
+    },
+    "term": {
+     "wrong_tokens": 2974,
+     "miss_rate": 0.26630800268997984,
+     "correct_tokens": 8448,
+     "ff_per_1k": 0.0
+    },
+    "typo": {
+     "wrong_tokens": 582,
+     "miss_rate": 0.4570446735395189,
+     "correct_tokens": 7930,
+     "ff_per_1k": 25.851197982345525
+    },
+    "runs": {
+     "n": 13033,
+     "detect_rate": 0.8787692779866493,
+     "early_rate": 0.0,
+     "mean_keys_to_detect": 6.211123723041998
+    },
+    "episodes": {
+     "n": 24000,
+     "exact": 0.8883333333333333
+    }
+   },
+   "leipzig": {
+    "all": {
+     "wrong_tokens": 9549,
+     "miss_rate": 0.0942507068803016,
+     "correct_tokens": 172637,
+     "ff_per_1k": 2.8093629986619324
+    },
+    "bg": {
+     "wrong_tokens": 6009,
+     "miss_rate": 0.0617407222499584,
+     "correct_tokens": 107745,
+     "ff_per_1k": 3.7310316023945425
+    },
+    "code": {
+     "wrong_tokens": 340,
+     "miss_rate": 0.4852941176470588,
+     "correct_tokens": 1023,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 3540,
+     "miss_rate": 0.14943502824858756,
+     "correct_tokens": 64892,
+     "ff_per_1k": 1.2790482648092214
+    },
+    "mixed_ep": {
+     "wrong_tokens": 5569,
+     "miss_rate": 0.11492188902855091,
+     "correct_tokens": 69579,
+     "ff_per_1k": 2.9175469610083504
+    },
+    "name": {
+     "wrong_tokens": 884,
+     "miss_rate": 0.19230769230769232,
+     "correct_tokens": 14654,
+     "ff_per_1k": 15.35416951003139
+    },
+    "oov": {
+     "wrong_tokens": 1304,
+     "miss_rate": 0.5736196319018405,
+     "correct_tokens": 15319,
+     "ff_per_1k": 24.28356942359162
+    },
+    "short": {
+     "wrong_tokens": 2334,
+     "miss_rate": 0.07455012853470437,
+     "correct_tokens": 45756,
+     "ff_per_1k": 4.327301337529504
+    },
+    "tech": {
+     "wrong_tokens": 704,
+     "miss_rate": 0.14630681818181818,
+     "correct_tokens": 1544,
+     "ff_per_1k": 0.0
+    },
+    "term": {
+     "wrong_tokens": 1044,
+     "miss_rate": 0.2567049808429119,
+     "correct_tokens": 2567,
+     "ff_per_1k": 0.0
+    },
+    "typo": {
+     "wrong_tokens": 228,
+     "miss_rate": 0.42543859649122806,
+     "correct_tokens": 4891,
+     "ff_per_1k": 20.445716622367613
+    },
+    "runs": {
+     "n": 4786,
+     "detect_rate": 0.8779774341830339,
+     "early_rate": 0.0,
+     "mean_keys_to_detect": 6.655402189433603
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.85
+    }
+   },
+   "subs": {
+    "all": {
+     "wrong_tokens": 7235,
+     "miss_rate": 0.09426399447131997,
+     "correct_tokens": 51233,
+     "ff_per_1k": 1.932348291140476
+    },
+    "bg": {
+     "wrong_tokens": 4400,
+     "miss_rate": 0.05613636363636364,
+     "correct_tokens": 32502,
+     "ff_per_1k": 2.369084979385884
+    },
+    "code": {
+     "wrong_tokens": 338,
+     "miss_rate": 0.47337278106508873,
+     "correct_tokens": 1284,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 2835,
+     "miss_rate": 0.15343915343915343,
+     "correct_tokens": 18731,
+     "ff_per_1k": 1.1745235171640596
+    },
+    "mixed_ep": {
+     "wrong_tokens": 4151,
+     "miss_rate": 0.12165743194410986,
+     "correct_tokens": 22565,
+     "ff_per_1k": 1.4624418346997563
+    },
+    "name": {
+     "wrong_tokens": 495,
+     "miss_rate": 0.12525252525252525,
+     "correct_tokens": 3327,
+     "ff_per_1k": 4.508566275924256
+    },
+    "oov": {
+     "wrong_tokens": 961,
+     "miss_rate": 0.5327783558792925,
+     "correct_tokens": 4556,
+     "ff_per_1k": 14.266900790166813
+    },
+    "short": {
+     "wrong_tokens": 1988,
+     "miss_rate": 0.08953722334004025,
+     "correct_tokens": 14989,
+     "ff_per_1k": 2.134898925878978
+    },
+    "tech": {
+     "wrong_tokens": 618,
+     "miss_rate": 0.16990291262135923,
+     "correct_tokens": 1773,
+     "ff_per_1k": 0.0
+    },
+    "term": {
+     "wrong_tokens": 956,
+     "miss_rate": 0.27719665271966526,
+     "correct_tokens": 3057,
+     "ff_per_1k": 0.0
+    },
+    "typo": {
+     "wrong_tokens": 163,
+     "miss_rate": 0.5153374233128835,
+     "correct_tokens": 1304,
+     "ff_per_1k": 39.877300613496935
+    },
+    "runs": {
+     "n": 4117,
+     "detect_rate": 0.8620354627155696,
+     "early_rate": 0.0,
+     "mean_keys_to_detect": 5.9523809523809526
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.90975
+    }
+   },
+   "tatoeba": {
+    "all": {
+     "wrong_tokens": 7957,
+     "miss_rate": 0.08457961543295212,
+     "correct_tokens": 64106,
+     "ff_per_1k": 1.8563005022930772
+    },
+    "bg": {
+     "wrong_tokens": 4902,
+     "miss_rate": 0.03508771929824561,
+     "correct_tokens": 38172,
+     "ff_per_1k": 3.038876663523001
+    },
+    "code": {
+     "wrong_tokens": 318,
+     "miss_rate": 0.48742138364779874,
+     "correct_tokens": 1156,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 3055,
+     "miss_rate": 0.16399345335515547,
+     "correct_tokens": 25934,
+     "ff_per_1k": 0.11567826019896661
+    },
+    "mixed_ep": {
+     "wrong_tokens": 4689,
+     "miss_rate": 0.10769886969503092,
+     "correct_tokens": 27311,
+     "ff_per_1k": 1.3913807623301966
+    },
+    "name": {
+     "wrong_tokens": 407,
+     "miss_rate": 0.10565110565110565,
+     "correct_tokens": 3222,
+     "ff_per_1k": 0.931098696461825
+    },
+    "oov": {
+     "wrong_tokens": 840,
+     "miss_rate": 0.5630952380952381,
+     "correct_tokens": 4278,
+     "ff_per_1k": 23.37540906965872
+    },
+    "short": {
+     "wrong_tokens": 2135,
+     "miss_rate": 0.09601873536299765,
+     "correct_tokens": 18328,
+     "ff_per_1k": 2.837189000436491
+    },
+    "tech": {
+     "wrong_tokens": 656,
+     "miss_rate": 0.15853658536585366,
+     "correct_tokens": 1668,
+     "ff_per_1k": 0.0
+    },
+    "term": {
+     "wrong_tokens": 974,
+     "miss_rate": 0.26591375770020537,
+     "correct_tokens": 2824,
+     "ff_per_1k": 0.0
+    },
+    "typo": {
+     "wrong_tokens": 191,
+     "miss_rate": 0.44502617801047123,
+     "correct_tokens": 1735,
+     "ff_per_1k": 30.54755043227666
+    },
+    "runs": {
+     "n": 4130,
+     "detect_rate": 0.8963680387409201,
+     "early_rate": 0.0,
+     "mean_keys_to_detect": 5.954889249054565
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.90525
+    }
+   }
+  },
+  "dict+prefix3": {
+   "all": {
+    "all": {
+     "wrong_tokens": 24741,
+     "miss_rate": 0.11167697344488905,
+     "correct_tokens": 287976,
+     "ff_per_1k": 6.566519432174903
+    },
+    "bg": {
+     "wrong_tokens": 15311,
+     "miss_rate": 0.12317941349356672,
+     "correct_tokens": 178419,
+     "ff_per_1k": 7.908350568044883
+    },
+    "code": {
+     "wrong_tokens": 996,
+     "miss_rate": 0.17369477911646586,
+     "correct_tokens": 3463,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 9430,
+     "miss_rate": 0.09300106044538706,
+     "correct_tokens": 109557,
+     "ff_per_1k": 4.381280977025658
+    },
+    "mixed_ep": {
+     "wrong_tokens": 14409,
+     "miss_rate": 0.1208272607398154,
+     "correct_tokens": 119455,
+     "ff_per_1k": 7.860700682265288
+    },
+    "name": {
+     "wrong_tokens": 1786,
+     "miss_rate": 0.11702127659574468,
+     "correct_tokens": 21203,
+     "ff_per_1k": 23.44007923407065
+    },
+    "oov": {
+     "wrong_tokens": 3105,
+     "miss_rate": 0.2772946859903382,
+     "correct_tokens": 24153,
+     "ff_per_1k": 75.89119364054154
+    },
+    "short": {
+     "wrong_tokens": 6457,
+     "miss_rate": 0.27938671209540034,
+     "correct_tokens": 79073,
+     "ff_per_1k": 1.6693435180149987
+    },
+    "tech": {
+     "wrong_tokens": 1978,
+     "miss_rate": 0.07027300303336703,
+     "correct_tokens": 4985,
+     "ff_per_1k": 50.150451354062184
+    },
+    "term": {
+     "wrong_tokens": 2974,
+     "miss_rate": 0.10490921318090114,
+     "correct_tokens": 8448,
+     "ff_per_1k": 29.59280303030303
+    },
+    "typo": {
+     "wrong_tokens": 582,
+     "miss_rate": 0.3024054982817869,
+     "correct_tokens": 7930,
+     "ff_per_1k": 121.94199243379572
+    },
+    "runs": {
+     "n": 13033,
+     "detect_rate": 0.8854446405278907,
+     "early_rate": 0.6027008363385253,
+     "mean_keys_to_detect": 4.364991334488735
+    },
+    "episodes": {
+     "n": 24000,
+     "exact": 0.833125
+    }
+   },
+   "leipzig": {
+    "all": {
+     "wrong_tokens": 9549,
+     "miss_rate": 0.08953817153628653,
+     "correct_tokens": 172637,
+     "ff_per_1k": 7.014718745112577
+    },
+    "bg": {
+     "wrong_tokens": 6009,
+     "miss_rate": 0.09602263271759028,
+     "correct_tokens": 107745,
+     "ff_per_1k": 9.012019119216669
+    },
+    "code": {
+     "wrong_tokens": 340,
+     "miss_rate": 0.2,
+     "correct_tokens": 1023,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 3540,
+     "miss_rate": 0.07853107344632769,
+     "correct_tokens": 64892,
+     "ff_per_1k": 3.6984528139061825
+    },
+    "mixed_ep": {
+     "wrong_tokens": 5569,
+     "miss_rate": 0.10109534925480337,
+     "correct_tokens": 69579,
+     "ff_per_1k": 7.990916799609077
+    },
+    "name": {
+     "wrong_tokens": 884,
+     "miss_rate": 0.10633484162895927,
+     "correct_tokens": 14654,
+     "ff_per_1k": 30.23065374641736
+    },
+    "oov": {
+     "wrong_tokens": 1304,
+     "miss_rate": 0.2960122699386503,
+     "correct_tokens": 15319,
+     "ff_per_1k": 76.5062993667994
+    },
+    "short": {
+     "wrong_tokens": 2334,
+     "miss_rate": 0.19708654670094258,
+     "correct_tokens": 45756,
+     "ff_per_1k": 2.1417956115045023
+    },
+    "tech": {
+     "wrong_tokens": 704,
+     "miss_rate": 0.061079545454545456,
+     "correct_tokens": 1544,
+     "ff_per_1k": 54.40414507772021
+    },
+    "term": {
+     "wrong_tokens": 1044,
+     "miss_rate": 0.10632183908045977,
+     "correct_tokens": 2567,
+     "ff_per_1k": 32.72302298402805
+    },
+    "typo": {
+     "wrong_tokens": 228,
+     "miss_rate": 0.2675438596491228,
+     "correct_tokens": 4891,
+     "ff_per_1k": 115.10938458392967
+    },
+    "runs": {
+     "n": 4786,
+     "detect_rate": 0.902632678646051,
+     "early_rate": 0.5796071876305893,
+     "mean_keys_to_detect": 4.453009259259259
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.782625
+    }
+   },
+   "subs": {
+    "all": {
+     "wrong_tokens": 7235,
+     "miss_rate": 0.1299239806496199,
+     "correct_tokens": 51233,
+     "ff_per_1k": 6.753459684187926
+    },
+    "bg": {
+     "wrong_tokens": 4400,
+     "miss_rate": 0.15454545454545454,
+     "correct_tokens": 32502,
+     "ff_per_1k": 6.922650913789921
+    },
+    "code": {
+     "wrong_tokens": 338,
+     "miss_rate": 0.1390532544378698,
+     "correct_tokens": 1284,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 2835,
+     "miss_rate": 0.09171075837742504,
+     "correct_tokens": 18731,
+     "ff_per_1k": 6.459879344402328
+    },
+    "mixed_ep": {
+     "wrong_tokens": 4151,
+     "miss_rate": 0.13948446157552397,
+     "correct_tokens": 22565,
+     "ff_per_1k": 8.287170396631952
+    },
+    "name": {
+     "wrong_tokens": 495,
+     "miss_rate": 0.1393939393939394,
+     "correct_tokens": 3327,
+     "ff_per_1k": 10.519987977156598
+    },
+    "oov": {
+     "wrong_tokens": 961,
+     "miss_rate": 0.26326742976066597,
+     "correct_tokens": 4556,
+     "ff_per_1k": 71.77348551360843
+    },
+    "short": {
+     "wrong_tokens": 1988,
+     "miss_rate": 0.33249496981891347,
+     "correct_tokens": 14989,
+     "ff_per_1k": 1.9347521515778237
+    },
+    "tech": {
+     "wrong_tokens": 618,
+     "miss_rate": 0.07605177993527508,
+     "correct_tokens": 1773,
+     "ff_per_1k": 49.06937394247039
+    },
+    "term": {
+     "wrong_tokens": 956,
+     "miss_rate": 0.09832635983263599,
+     "correct_tokens": 3057,
+     "ff_per_1k": 28.45927379784102
+    },
+    "typo": {
+     "wrong_tokens": 163,
+     "miss_rate": 0.36809815950920244,
+     "correct_tokens": 1304,
+     "ff_per_1k": 136.50306748466258
+    },
+    "runs": {
+     "n": 4117,
+     "detect_rate": 0.8681078455185814,
+     "early_rate": 0.6203546271556959,
+     "mean_keys_to_detect": 4.274482372691662
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.860625
+    }
+   },
+   "tatoeba": {
+    "all": {
+     "wrong_tokens": 7957,
+     "miss_rate": 0.12165388965690586,
+     "correct_tokens": 64106,
+     "ff_per_1k": 5.210120737528468
+    },
+    "bg": {
+     "wrong_tokens": 4902,
+     "miss_rate": 0.12831497348021215,
+     "correct_tokens": 38172,
+     "ff_per_1k": 5.632400712564183
+    },
+    "code": {
+     "wrong_tokens": 318,
+     "miss_rate": 0.18238993710691823,
+     "correct_tokens": 1156,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 3055,
+     "miss_rate": 0.11096563011456628,
+     "correct_tokens": 25934,
+     "ff_per_1k": 4.588570987892342
+    },
+    "mixed_ep": {
+     "wrong_tokens": 4689,
+     "miss_rate": 0.12774578801450204,
+     "correct_tokens": 27311,
+     "ff_per_1k": 7.176595510966277
+    },
+    "name": {
+     "wrong_tokens": 407,
+     "miss_rate": 0.11302211302211303,
+     "correct_tokens": 3222,
+     "ff_per_1k": 5.896958410924891
+    },
+    "oov": {
+     "wrong_tokens": 840,
+     "miss_rate": 0.2642857142857143,
+     "correct_tokens": 4278,
+     "ff_per_1k": 78.07386629266013
+    },
+    "short": {
+     "wrong_tokens": 2135,
+     "miss_rate": 0.3199063231850117,
+     "correct_tokens": 18328,
+     "ff_per_1k": 0.2728066346573549
+    },
+    "tech": {
+     "wrong_tokens": 656,
+     "miss_rate": 0.07469512195121951,
+     "correct_tokens": 1668,
+     "ff_per_1k": 47.3621103117506
+    },
+    "term": {
+     "wrong_tokens": 974,
+     "miss_rate": 0.10985626283367557,
+     "correct_tokens": 2824,
+     "ff_per_1k": 27.974504249291783
+    },
+    "typo": {
+     "wrong_tokens": 191,
+     "miss_rate": 0.2879581151832461,
+     "correct_tokens": 1735,
+     "ff_per_1k": 130.2593659942363
+    },
+    "runs": {
+     "n": 4130,
+     "detect_rate": 0.8828087167070218,
+     "early_rate": 0.611864406779661,
+     "mean_keys_to_detect": 4.349424026330225
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.856125
+    }
+   }
+  },
+  "dict+freq+prefix3": {
+   "all": {
+    "all": {
+     "wrong_tokens": 24741,
+     "miss_rate": 0.05476739016207914,
+     "correct_tokens": 287976,
+     "ff_per_1k": 7.4172847737311445
+    },
+    "bg": {
+     "wrong_tokens": 15311,
+     "miss_rate": 0.04238782574619555,
+     "correct_tokens": 178419,
+     "ff_per_1k": 9.24228921807655
+    },
+    "code": {
+     "wrong_tokens": 996,
+     "miss_rate": 0.1716867469879518,
+     "correct_tokens": 3463,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 9430,
+     "miss_rate": 0.07486744432661718,
+     "correct_tokens": 109557,
+     "ff_per_1k": 4.4451746579406155
+    },
+    "mixed_ep": {
+     "wrong_tokens": 14409,
+     "miss_rate": 0.06287736831147199,
+     "correct_tokens": 119455,
+     "ff_per_1k": 8.605751119668495
+    },
+    "name": {
+     "wrong_tokens": 1786,
+     "miss_rate": 0.0767077267637178,
+     "correct_tokens": 21203,
+     "ff_per_1k": 25.79823609866528
+    },
+    "oov": {
+     "wrong_tokens": 3105,
+     "miss_rate": 0.2711755233494364,
+     "correct_tokens": 24153,
+     "ff_per_1k": 81.56336686954002
+    },
+    "short": {
+     "wrong_tokens": 6457,
+     "miss_rate": 0.0856434876877807,
+     "correct_tokens": 79073,
+     "ff_per_1k": 3.5536782466834445
+    },
+    "tech": {
+     "wrong_tokens": 1978,
+     "miss_rate": 0.07027300303336703,
+     "correct_tokens": 4985,
+     "ff_per_1k": 50.150451354062184
+    },
+    "term": {
+     "wrong_tokens": 2974,
+     "miss_rate": 0.10423671822461332,
+     "correct_tokens": 8448,
+     "ff_per_1k": 29.59280303030303
+    },
+    "typo": {
+     "wrong_tokens": 582,
+     "miss_rate": 0.281786941580756,
+     "correct_tokens": 7930,
+     "ff_per_1k": 123.5813366960908
+    },
+    "runs": {
+     "n": 13033,
+     "detect_rate": 0.9368526049259572,
+     "early_rate": 0.577610680580066,
+     "mean_keys_to_detect": 4.081981981981982
+    },
+    "episodes": {
+     "n": 24000,
+     "exact": 0.8687083333333333
+    }
+   },
+   "leipzig": {
+    "all": {
+     "wrong_tokens": 9549,
+     "miss_rate": 0.05456068698293015,
+     "correct_tokens": 172637,
+     "ff_per_1k": 7.947311410647775
+    },
+    "bg": {
+     "wrong_tokens": 6009,
+     "miss_rate": 0.04959227824929273,
+     "correct_tokens": 107745,
+     "ff_per_1k": 10.450600955960834
+    },
+    "code": {
+     "wrong_tokens": 340,
+     "miss_rate": 0.2,
+     "correct_tokens": 1023,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 3540,
+     "miss_rate": 0.06299435028248587,
+     "correct_tokens": 64892,
+     "ff_per_1k": 3.7909141342538373
+    },
+    "mixed_ep": {
+     "wrong_tokens": 5569,
+     "miss_rate": 0.064823128030167,
+     "correct_tokens": 69579,
+     "ff_per_1k": 8.939478865749724
+    },
+    "name": {
+     "wrong_tokens": 884,
+     "miss_rate": 0.09049773755656108,
+     "correct_tokens": 14654,
+     "ff_per_1k": 33.36972840180156
+    },
+    "oov": {
+     "wrong_tokens": 1304,
+     "miss_rate": 0.28911042944785276,
+     "correct_tokens": 15319,
+     "ff_per_1k": 82.18552124812325
+    },
+    "short": {
+     "wrong_tokens": 2334,
+     "miss_rate": 0.07412167952013711,
+     "correct_tokens": 45756,
+     "ff_per_1k": 4.305446280269254
+    },
+    "tech": {
+     "wrong_tokens": 704,
+     "miss_rate": 0.061079545454545456,
+     "correct_tokens": 1544,
+     "ff_per_1k": 54.40414507772021
+    },
+    "term": {
+     "wrong_tokens": 1044,
+     "miss_rate": 0.10632183908045977,
+     "correct_tokens": 2567,
+     "ff_per_1k": 32.72302298402805
+    },
+    "typo": {
+     "wrong_tokens": 228,
+     "miss_rate": 0.2543859649122807,
+     "correct_tokens": 4891,
+     "ff_per_1k": 116.74504191371908
+    },
+    "runs": {
+     "n": 4786,
+     "detect_rate": 0.9364814040952779,
+     "early_rate": 0.5601755119097367,
+     "mean_keys_to_detect": 4.241856314145471
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.797125
+    }
+   },
+   "subs": {
+    "all": {
+     "wrong_tokens": 7235,
+     "miss_rate": 0.05777470628887353,
+     "correct_tokens": 51233,
+     "ff_per_1k": 7.124314406730037
+    },
+    "bg": {
+     "wrong_tokens": 4400,
+     "miss_rate": 0.04727272727272727,
+     "correct_tokens": 32502,
+     "ff_per_1k": 7.4764629868931145
+    },
+    "code": {
+     "wrong_tokens": 338,
+     "miss_rate": 0.1390532544378698,
+     "correct_tokens": 1284,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 2835,
+     "miss_rate": 0.07407407407407407,
+     "correct_tokens": 18731,
+     "ff_per_1k": 6.513266777000694
+    },
+    "mixed_ep": {
+     "wrong_tokens": 4151,
+     "miss_rate": 0.06432185015658877,
+     "correct_tokens": 22565,
+     "ff_per_1k": 8.508752492798582
+    },
+    "name": {
+     "wrong_tokens": 495,
+     "miss_rate": 0.07878787878787878,
+     "correct_tokens": 3327,
+     "ff_per_1k": 11.722272317403066
+    },
+    "oov": {
+     "wrong_tokens": 961,
+     "miss_rate": 0.259105098855359,
+     "correct_tokens": 4556,
+     "ff_per_1k": 72.65144863915715
+    },
+    "short": {
+     "wrong_tokens": 1988,
+     "miss_rate": 0.0880281690140845,
+     "correct_tokens": 14989,
+     "ff_per_1k": 2.134898925878978
+    },
+    "tech": {
+     "wrong_tokens": 618,
+     "miss_rate": 0.07605177993527508,
+     "correct_tokens": 1773,
+     "ff_per_1k": 49.06937394247039
+    },
+    "term": {
+     "wrong_tokens": 956,
+     "miss_rate": 0.09832635983263599,
+     "correct_tokens": 3057,
+     "ff_per_1k": 28.45927379784102
+    },
+    "typo": {
+     "wrong_tokens": 163,
+     "miss_rate": 0.34355828220858897,
+     "correct_tokens": 1304,
+     "ff_per_1k": 138.80368098159508
+    },
+    "runs": {
+     "n": 4117,
+     "detect_rate": 0.9302890454214233,
+     "early_rate": 0.5950935146951664,
+     "mean_keys_to_detect": 3.966840731070496
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.908125
+    }
+   },
+   "tatoeba": {
+    "all": {
+     "wrong_tokens": 7957,
+     "miss_rate": 0.052281010431066983,
+     "correct_tokens": 64106,
+     "ff_per_1k": 6.224066390041494
+    },
+    "bg": {
+     "wrong_tokens": 4902,
+     "miss_rate": 0.029171766625866992,
+     "correct_tokens": 38172,
+     "ff_per_1k": 7.335219532641727
+    },
+    "code": {
+     "wrong_tokens": 318,
+     "miss_rate": 0.1761006289308176,
+     "correct_tokens": 1156,
+     "ff_per_1k": 0.0
+    },
+    "en": {
+     "wrong_tokens": 3055,
+     "miss_rate": 0.08936170212765958,
+     "correct_tokens": 25934,
+     "ff_per_1k": 4.588570987892342
+    },
+    "mixed_ep": {
+     "wrong_tokens": 4689,
+     "miss_rate": 0.05928769460439326,
+     "correct_tokens": 27311,
+     "ff_per_1k": 7.83567060891216
+    },
+    "name": {
+     "wrong_tokens": 407,
+     "miss_rate": 0.044226044226044224,
+     "correct_tokens": 3222,
+     "ff_per_1k": 5.896958410924891
+    },
+    "oov": {
+     "wrong_tokens": 840,
+     "miss_rate": 0.2571428571428571,
+     "correct_tokens": 4278,
+     "ff_per_1k": 88.82655446470314
+    },
+    "short": {
+     "wrong_tokens": 2135,
+     "miss_rate": 0.09601873536299765,
+     "correct_tokens": 18328,
+     "ff_per_1k": 2.837189000436491
+    },
+    "tech": {
+     "wrong_tokens": 656,
+     "miss_rate": 0.07469512195121951,
+     "correct_tokens": 1668,
+     "ff_per_1k": 47.3621103117506
+    },
+    "term": {
+     "wrong_tokens": 974,
+     "miss_rate": 0.10780287474332649,
+     "correct_tokens": 2824,
+     "ff_per_1k": 27.974504249291783
+    },
+    "typo": {
+     "wrong_tokens": 191,
+     "miss_rate": 0.2617801047120419,
+     "correct_tokens": 1735,
+     "ff_per_1k": 131.4121037463977
+    },
+    "runs": {
+     "n": 4130,
+     "detect_rate": 0.9438256658595642,
+     "early_rate": 0.5803874092009685,
+     "mean_keys_to_detect": 4.011287839917907
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.900875
+    }
+   }
+  },
+  "model-safe": {
+   "all": {
+    "all": {
+     "wrong_tokens": 24741,
+     "miss_rate": 0.030031122428357787,
+     "correct_tokens": 287976,
+     "ff_per_1k": 6.101202878017612
+    },
+    "bg": {
+     "wrong_tokens": 15311,
+     "miss_rate": 0.022271569459865456,
+     "correct_tokens": 178419,
+     "ff_per_1k": 2.6398533788441814
+    },
+    "code": {
+     "wrong_tokens": 996,
+     "miss_rate": 0.142570281124498,
+     "correct_tokens": 3463,
+     "ff_per_1k": 86.05255558764077
+    },
+    "en": {
+     "wrong_tokens": 9430,
+     "miss_rate": 0.042629904559915166,
+     "correct_tokens": 109557,
+     "ff_per_1k": 11.738181950947908
+    },
+    "mixed_ep": {
+     "wrong_tokens": 14409,
+     "miss_rate": 0.04268165729752238,
+     "correct_tokens": 119455,
+     "ff_per_1k": 12.783056381063998
+    },
+    "name": {
+     "wrong_tokens": 1786,
+     "miss_rate": 0.027995520716685332,
+     "correct_tokens": 21203,
+     "ff_per_1k": 6.7443286327406495
+    },
+    "oov": {
+     "wrong_tokens": 3105,
+     "miss_rate": 0.1748792270531401,
+     "correct_tokens": 24153,
+     "ff_per_1k": 44.13530410300998
+    },
+    "short": {
+     "wrong_tokens": 6457,
+     "miss_rate": 0.03670435186619173,
+     "correct_tokens": 79073,
+     "ff_per_1k": 7.259114995004616
+    },
+    "tech": {
+     "wrong_tokens": 1978,
+     "miss_rate": 0.10414560161779575,
+     "correct_tokens": 4985,
+     "ff_per_1k": 119.35807422266801
+    },
+    "term": {
+     "wrong_tokens": 2974,
+     "miss_rate": 0.11701412239408204,
+     "correct_tokens": 8448,
+     "ff_per_1k": 105.70549242424242
+    },
+    "typo": {
+     "wrong_tokens": 582,
+     "miss_rate": 0.015463917525773196,
+     "correct_tokens": 7930,
+     "ff_per_1k": 9.96216897856242
+    },
+    "runs": {
+     "n": 13033,
+     "detect_rate": 0.9671602854292949,
+     "early_rate": 0.7675899639376966,
+     "mean_keys_to_detect": 3.1328044426814756
+    },
+    "episodes": {
+     "n": 24000,
+     "exact": 0.9105
+    }
+   },
+   "leipzig": {
+    "all": {
+     "wrong_tokens": 9549,
+     "miss_rate": 0.03424442349984291,
+     "correct_tokens": 172637,
+     "ff_per_1k": 4.130053233084449
+    },
+    "bg": {
+     "wrong_tokens": 6009,
+     "miss_rate": 0.026127475453486437,
+     "correct_tokens": 107745,
+     "ff_per_1k": 1.8655158011972712
+    },
+    "code": {
+     "wrong_tokens": 340,
+     "miss_rate": 0.1588235294117647,
+     "correct_tokens": 1023,
+     "ff_per_1k": 96.7741935483871
+    },
+    "en": {
+     "wrong_tokens": 3540,
+     "miss_rate": 0.0480225988700565,
+     "correct_tokens": 64892,
+     "ff_per_1k": 7.890032669666523
+    },
+    "mixed_ep": {
+     "wrong_tokens": 5569,
+     "miss_rate": 0.045968755611420366,
+     "correct_tokens": 69579,
+     "ff_per_1k": 8.40770922261027
+    },
+    "name": {
+     "wrong_tokens": 884,
+     "miss_rate": 0.03167420814479638,
+     "correct_tokens": 14654,
+     "ff_per_1k": 6.755834584413812
+    },
+    "oov": {
+     "wrong_tokens": 1304,
+     "miss_rate": 0.18865030674846625,
+     "correct_tokens": 15319,
+     "ff_per_1k": 28.330830994190222
+    },
+    "short": {
+     "wrong_tokens": 2334,
+     "miss_rate": 0.04584404455869751,
+     "correct_tokens": 45756,
+     "ff_per_1k": 4.851822711775505
+    },
+    "tech": {
+     "wrong_tokens": 704,
+     "miss_rate": 0.10511363636363637,
+     "correct_tokens": 1544,
+     "ff_per_1k": 150.25906735751295
+    },
+    "term": {
+     "wrong_tokens": 1044,
+     "miss_rate": 0.12260536398467432,
+     "correct_tokens": 2567,
+     "ff_per_1k": 128.94429294896767
+    },
+    "typo": {
+     "wrong_tokens": 228,
+     "miss_rate": 0.013157894736842105,
+     "correct_tokens": 4891,
+     "ff_per_1k": 7.360457984052341
+    },
+    "runs": {
+     "n": 4786,
+     "detect_rate": 0.9663602173004596,
+     "early_rate": 0.7636857501044714,
+     "mean_keys_to_detect": 3.1554594594594594
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.89025
+    }
+   },
+   "subs": {
+    "all": {
+     "wrong_tokens": 7235,
+     "miss_rate": 0.031098825155494125,
+     "correct_tokens": 51233,
+     "ff_per_1k": 10.793824292936193
+    },
+    "bg": {
+     "wrong_tokens": 4400,
+     "miss_rate": 0.024772727272727273,
+     "correct_tokens": 32502,
+     "ff_per_1k": 4.707402621377146
+    },
+    "code": {
+     "wrong_tokens": 338,
+     "miss_rate": 0.11242603550295859,
+     "correct_tokens": 1284,
+     "ff_per_1k": 70.87227414330218
+    },
+    "en": {
+     "wrong_tokens": 2835,
+     "miss_rate": 0.04091710758377425,
+     "correct_tokens": 18731,
+     "ff_per_1k": 21.35497303934654
+    },
+    "mixed_ep": {
+     "wrong_tokens": 4151,
+     "miss_rate": 0.042881233437725846,
+     "correct_tokens": 22565,
+     "ff_per_1k": 22.06957677819632
+    },
+    "name": {
+     "wrong_tokens": 495,
+     "miss_rate": 0.03636363636363636,
+     "correct_tokens": 3327,
+     "ff_per_1k": 9.31770363691013
+    },
+    "oov": {
+     "wrong_tokens": 961,
+     "miss_rate": 0.17065556711758584,
+     "correct_tokens": 4556,
+     "ff_per_1k": 69.57857769973661
+    },
+    "short": {
+     "wrong_tokens": 1988,
+     "miss_rate": 0.036720321931589535,
+     "correct_tokens": 14989,
+     "ff_per_1k": 13.476549469611047
+    },
+    "tech": {
+     "wrong_tokens": 618,
+     "miss_rate": 0.09870550161812297,
+     "correct_tokens": 1773,
+     "ff_per_1k": 107.16300056401579
+    },
+    "term": {
+     "wrong_tokens": 956,
+     "miss_rate": 0.10355648535564854,
+     "correct_tokens": 3057,
+     "ff_per_1k": 91.92018318613019
+    },
+    "typo": {
+     "wrong_tokens": 163,
+     "miss_rate": 0.03067484662576687,
+     "correct_tokens": 1304,
+     "ff_per_1k": 14.570552147239264
+    },
+    "runs": {
+     "n": 4117,
+     "detect_rate": 0.9635657031819286,
+     "early_rate": 0.7677920816128249,
+     "mean_keys_to_detect": 3.12704814721452
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.916375
+    }
+   },
+   "tatoeba": {
+    "all": {
+     "wrong_tokens": 7957,
+     "miss_rate": 0.024004021616187005,
+     "correct_tokens": 64106,
+     "ff_per_1k": 7.659189467444545
+    },
+    "bg": {
+     "wrong_tokens": 4902,
+     "miss_rate": 0.015299877600979192,
+     "correct_tokens": 38172,
+     "ff_per_1k": 3.0650738761395786
+    },
+    "code": {
+     "wrong_tokens": 318,
+     "miss_rate": 0.15723270440251572,
+     "correct_tokens": 1156,
+     "ff_per_1k": 93.42560553633218
+    },
+    "en": {
+     "wrong_tokens": 3055,
+     "miss_rate": 0.037970540098199675,
+     "correct_tokens": 25934,
+     "ff_per_1k": 14.421223104804504
+    },
+    "mixed_ep": {
+     "wrong_tokens": 4689,
+     "miss_rate": 0.03860098101940712,
+     "correct_tokens": 27311,
+     "ff_per_1k": 16.25718574933177
+    },
+    "name": {
+     "wrong_tokens": 407,
+     "miss_rate": 0.009828009828009828,
+     "correct_tokens": 3222,
+     "ff_per_1k": 4.034761018001242
+    },
+    "oov": {
+     "wrong_tokens": 840,
+     "miss_rate": 0.15833333333333333,
+     "correct_tokens": 4278,
+     "ff_per_1k": 73.63253856942497
+    },
+    "short": {
+     "wrong_tokens": 2135,
+     "miss_rate": 0.026697892271662763,
+     "correct_tokens": 18328,
+     "ff_per_1k": 8.184199039720646
+    },
+    "tech": {
+     "wrong_tokens": 656,
+     "miss_rate": 0.10823170731707317,
+     "correct_tokens": 1668,
+     "ff_per_1k": 103.71702637889689
+    },
+    "term": {
+     "wrong_tokens": 974,
+     "miss_rate": 0.12422997946611909,
+     "correct_tokens": 2824,
+     "ff_per_1k": 99.5042492917847
+    },
+    "typo": {
+     "wrong_tokens": 191,
+     "miss_rate": 0.005235602094240838,
+     "correct_tokens": 1735,
+     "ff_per_1k": 13.832853025936599
+    },
+    "runs": {
+     "n": 4130,
+     "detect_rate": 0.9716707021791767,
+     "early_rate": 0.7719128329297821,
+     "mean_keys_to_detect": 3.112384749563917
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.924875
+    }
+   }
+  },
+  "model-balanced": {
+   "all": {
+    "all": {
+     "wrong_tokens": 24741,
+     "miss_rate": 0.03597267693302615,
+     "correct_tokens": 287976,
+     "ff_per_1k": 3.222490763119149
+    },
+    "bg": {
+     "wrong_tokens": 15311,
+     "miss_rate": 0.02488407027627196,
+     "correct_tokens": 178419,
+     "ff_per_1k": 1.1377712014975983
+    },
+    "code": {
+     "wrong_tokens": 996,
+     "miss_rate": 0.19578313253012047,
+     "correct_tokens": 3463,
+     "ff_per_1k": 11.550678602367888
+    },
+    "en": {
+     "wrong_tokens": 9430,
+     "miss_rate": 0.053976670201484625,
+     "correct_tokens": 109557,
+     "ff_per_1k": 6.617559809049171
+    },
+    "mixed_ep": {
+     "wrong_tokens": 14409,
+     "miss_rate": 0.05198140051356791,
+     "correct_tokens": 119455,
+     "ff_per_1k": 6.864509647984597
+    },
+    "name": {
+     "wrong_tokens": 1786,
+     "miss_rate": 0.0335946248600224,
+     "correct_tokens": 21203,
+     "ff_per_1k": 2.452483139178418
+    },
+    "oov": {
+     "wrong_tokens": 3105,
+     "miss_rate": 0.20611916264090177,
+     "correct_tokens": 24153,
+     "ff_per_1k": 23.51674740197905
+    },
+    "short": {
+     "wrong_tokens": 6457,
+     "miss_rate": 0.04289917918538021,
+     "correct_tokens": 79073,
+     "ff_per_1k": 6.007107356493367
+    },
+    "tech": {
+     "wrong_tokens": 1978,
+     "miss_rate": 0.12386248736097068,
+     "correct_tokens": 4985,
+     "ff_per_1k": 71.81544633901706
+    },
+    "term": {
+     "wrong_tokens": 2974,
+     "miss_rate": 0.14794889038332212,
+     "correct_tokens": 8448,
+     "ff_per_1k": 47.11174242424242
+    },
+    "typo": {
+     "wrong_tokens": 582,
+     "miss_rate": 0.022336769759450172,
+     "correct_tokens": 7930,
+     "ff_per_1k": 3.656998738965952
+    },
+    "runs": {
+     "n": 13033,
+     "detect_rate": 0.9591805417018338,
+     "early_rate": 0.5519834266861045,
+     "mean_keys_to_detect": 4.2391808655307575
+    },
+    "episodes": {
+     "n": 24000,
+     "exact": 0.9350833333333334
+    }
+   },
+   "leipzig": {
+    "all": {
+     "wrong_tokens": 9549,
+     "miss_rate": 0.039271127866792335,
+     "correct_tokens": 172637,
+     "ff_per_1k": 2.17218788556335
+    },
+    "bg": {
+     "wrong_tokens": 6009,
+     "miss_rate": 0.028623731070061574,
+     "correct_tokens": 107745,
+     "ff_per_1k": 0.8817114483270685
+    },
+    "code": {
+     "wrong_tokens": 340,
+     "miss_rate": 0.19705882352941176,
+     "correct_tokens": 1023,
+     "ff_per_1k": 9.775171065493646
+    },
+    "en": {
+     "wrong_tokens": 3540,
+     "miss_rate": 0.05734463276836158,
+     "correct_tokens": 64892,
+     "ff_per_1k": 4.3148616162238795
+    },
+    "mixed_ep": {
+     "wrong_tokens": 5569,
+     "miss_rate": 0.053330939127311905,
+     "correct_tokens": 69579,
+     "ff_per_1k": 4.512855890426709
+    },
+    "name": {
+     "wrong_tokens": 884,
+     "miss_rate": 0.0418552036199095,
+     "correct_tokens": 14654,
+     "ff_per_1k": 2.9343523952504436
+    },
+    "oov": {
+     "wrong_tokens": 1304,
+     "miss_rate": 0.2085889570552147,
+     "correct_tokens": 15319,
+     "ff_per_1k": 14.687642796527188
+    },
+    "short": {
+     "wrong_tokens": 2334,
+     "miss_rate": 0.05184233076263925,
+     "correct_tokens": 45756,
+     "ff_per_1k": 3.9776204213655038
+    },
+    "tech": {
+     "wrong_tokens": 704,
+     "miss_rate": 0.12357954545454546,
+     "correct_tokens": 1544,
+     "ff_per_1k": 92.61658031088083
+    },
+    "term": {
+     "wrong_tokens": 1044,
+     "miss_rate": 0.1475095785440613,
+     "correct_tokens": 2567,
+     "ff_per_1k": 59.602649006622514
+    },
+    "typo": {
+     "wrong_tokens": 228,
+     "miss_rate": 0.021929824561403508,
+     "correct_tokens": 4891,
+     "ff_per_1k": 2.862400327131466
+    },
+    "runs": {
+     "n": 4786,
+     "detect_rate": 0.9628081905557877,
+     "early_rate": 0.570622649394066,
+     "mean_keys_to_detect": 4.321397569444445
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.920875
+    }
+   },
+   "subs": {
+    "all": {
+     "wrong_tokens": 7235,
+     "miss_rate": 0.038286109191430544,
+     "correct_tokens": 51233,
+     "ff_per_1k": 5.8165635430289075
+    },
+    "bg": {
+     "wrong_tokens": 4400,
+     "miss_rate": 0.027954545454545454,
+     "correct_tokens": 32502,
+     "ff_per_1k": 1.9383422558611778
+    },
+    "code": {
+     "wrong_tokens": 338,
+     "miss_rate": 0.17751479289940827,
+     "correct_tokens": 1284,
+     "ff_per_1k": 10.12461059190031
+    },
+    "en": {
+     "wrong_tokens": 2835,
+     "miss_rate": 0.05432098765432099,
+     "correct_tokens": 18731,
+     "ff_per_1k": 12.54604666061609
+    },
+    "mixed_ep": {
+     "wrong_tokens": 4151,
+     "miss_rate": 0.054926523729221875,
+     "correct_tokens": 22565,
+     "ff_per_1k": 11.965433192998006
+    },
+    "name": {
+     "wrong_tokens": 495,
+     "miss_rate": 0.03838383838383838,
+     "correct_tokens": 3327,
+     "ff_per_1k": 2.4045686804929365
+    },
+    "oov": {
+     "wrong_tokens": 961,
+     "miss_rate": 0.21019771071800208,
+     "correct_tokens": 4556,
+     "ff_per_1k": 39.28884986830553
+    },
+    "short": {
+     "wrong_tokens": 1988,
+     "miss_rate": 0.04527162977867203,
+     "correct_tokens": 14989,
+     "ff_per_1k": 10.67449462939489
+    },
+    "tech": {
+     "wrong_tokens": 618,
+     "miss_rate": 0.12135922330097088,
+     "correct_tokens": 1773,
+     "ff_per_1k": 64.86181613085166
+    },
+    "term": {
+     "wrong_tokens": 956,
+     "miss_rate": 0.1412133891213389,
+     "correct_tokens": 3057,
+     "ff_per_1k": 41.87111547268564
+    },
+    "typo": {
+     "wrong_tokens": 163,
+     "miss_rate": 0.03680981595092025,
+     "correct_tokens": 1304,
+     "ff_per_1k": 6.901840490797546
+    },
+    "runs": {
+     "n": 4117,
+     "detect_rate": 0.9511780422637843,
+     "early_rate": 0.5589021131892155,
+     "mean_keys_to_detect": 4.193564862104188
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.9385
+    }
+   },
+   "tatoeba": {
+    "all": {
+     "wrong_tokens": 7957,
+     "miss_rate": 0.029910770390850824,
+     "correct_tokens": 64106,
+     "ff_per_1k": 3.977786790628022
+    },
+    "bg": {
+     "wrong_tokens": 4902,
+     "miss_rate": 0.017543859649122806,
+     "correct_tokens": 38172,
+     "ff_per_1k": 1.1788745677459918
+    },
+    "code": {
+     "wrong_tokens": 318,
+     "miss_rate": 0.2138364779874214,
+     "correct_tokens": 1156,
+     "ff_per_1k": 14.705882352941176
+    },
+    "en": {
+     "wrong_tokens": 3055,
+     "miss_rate": 0.049754500818330605,
+     "correct_tokens": 25934,
+     "ff_per_1k": 8.097478213927662
+    },
+    "mixed_ep": {
+     "wrong_tokens": 4689,
+     "miss_rate": 0.047771379825122626,
+     "correct_tokens": 27311,
+     "ff_per_1k": 8.641206839734906
+    },
+    "name": {
+     "wrong_tokens": 407,
+     "miss_rate": 0.009828009828009828,
+     "correct_tokens": 3222,
+     "ff_per_1k": 0.31036623215394166
+    },
+    "oov": {
+     "wrong_tokens": 840,
+     "miss_rate": 0.1976190476190476,
+     "correct_tokens": 4278,
+     "ff_per_1k": 38.3356708742403
+    },
+    "short": {
+     "wrong_tokens": 2135,
+     "miss_rate": 0.030913348946135833,
+     "correct_tokens": 18328,
+     "ff_per_1k": 7.256656481885639
+    },
+    "tech": {
+     "wrong_tokens": 656,
+     "miss_rate": 0.12652439024390244,
+     "correct_tokens": 1668,
+     "ff_per_1k": 59.95203836930455
+    },
+    "term": {
+     "wrong_tokens": 974,
+     "miss_rate": 0.15503080082135523,
+     "correct_tokens": 2824,
+     "ff_per_1k": 41.43059490084986
+    },
+    "typo": {
+     "wrong_tokens": 191,
+     "miss_rate": 0.010471204188481676,
+     "correct_tokens": 1735,
+     "ff_per_1k": 3.4582132564841497
+    },
+    "runs": {
+     "n": 4130,
+     "detect_rate": 0.962953995157385,
+     "early_rate": 0.5234866828087167,
+     "mean_keys_to_detect": 4.188835805883832
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.945875
+    }
+   }
+  },
+  "model-wordend": {
+   "all": {
+    "all": {
+     "wrong_tokens": 24741,
+     "miss_rate": 0.031001172143405684,
+     "correct_tokens": 287976,
+     "ff_per_1k": 4.055893546684446
+    },
+    "bg": {
+     "wrong_tokens": 15311,
+     "miss_rate": 0.02233688198027562,
+     "correct_tokens": 178419,
+     "ff_per_1k": 1.6029682937355327
+    },
+    "code": {
+     "wrong_tokens": 996,
+     "miss_rate": 0.1636546184738956,
+     "correct_tokens": 3463,
+     "ff_per_1k": 26.566560785446146
+    },
+    "en": {
+     "wrong_tokens": 9430,
+     "miss_rate": 0.045068928950159064,
+     "correct_tokens": 109557,
+     "ff_per_1k": 8.050603795284646
+    },
+    "mixed_ep": {
+     "wrong_tokens": 14409,
+     "miss_rate": 0.04427788187938094,
+     "correct_tokens": 119455,
+     "ff_per_1k": 8.522037587376
+    },
+    "name": {
+     "wrong_tokens": 1786,
+     "miss_rate": 0.030795072788353865,
+     "correct_tokens": 21203,
+     "ff_per_1k": 4.291845493562231
+    },
+    "oov": {
+     "wrong_tokens": 3105,
+     "miss_rate": 0.1826086956521739,
+     "correct_tokens": 24153,
+     "ff_per_1k": 29.52014242537159
+    },
+    "short": {
+     "wrong_tokens": 6457,
+     "miss_rate": 0.03670435186619173,
+     "correct_tokens": 79073,
+     "ff_per_1k": 7.195882285988897
+    },
+    "tech": {
+     "wrong_tokens": 1978,
+     "miss_rate": 0.10414560161779575,
+     "correct_tokens": 4985,
+     "ff_per_1k": 83.24974924774322
+    },
+    "term": {
+     "wrong_tokens": 2974,
+     "miss_rate": 0.12407531943510423,
+     "correct_tokens": 8448,
+     "ff_per_1k": 60.01420454545455
+    },
+    "typo": {
+     "wrong_tokens": 582,
+     "miss_rate": 0.015463917525773196,
+     "correct_tokens": 7930,
+     "ff_per_1k": 5.926860025220681
+    },
+    "runs": {
+     "n": 13033,
+     "detect_rate": 0.9602547379728382,
+     "early_rate": 0.0,
+     "mean_keys_to_detect": 6.182820615261686
+    },
+    "episodes": {
+     "n": 24000,
+     "exact": 0.9310416666666667
+    }
+   },
+   "leipzig": {
+    "all": {
+     "wrong_tokens": 9549,
+     "miss_rate": 0.03497748455335637,
+     "correct_tokens": 172637,
+     "ff_per_1k": 2.7861929945492565
+    },
+    "bg": {
+     "wrong_tokens": 6009,
+     "miss_rate": 0.026293892494591447,
+     "correct_tokens": 107745,
+     "ff_per_1k": 1.2065525082370412
+    },
+    "code": {
+     "wrong_tokens": 340,
+     "miss_rate": 0.17352941176470588,
+     "correct_tokens": 1023,
+     "ff_per_1k": 34.21309872922776
+    },
+    "en": {
+     "wrong_tokens": 3540,
+     "miss_rate": 0.04971751412429379,
+     "correct_tokens": 64892,
+     "ff_per_1k": 5.408987240337792
+    },
+    "mixed_ep": {
+     "wrong_tokens": 5569,
+     "miss_rate": 0.04722571377267014,
+     "correct_tokens": 69579,
+     "ff_per_1k": 5.677000244326593
+    },
+    "name": {
+     "wrong_tokens": 884,
+     "miss_rate": 0.03506787330316742,
+     "correct_tokens": 14654,
+     "ff_per_1k": 5.118056503343797
+    },
+    "oov": {
+     "wrong_tokens": 1304,
+     "miss_rate": 0.19401840490797545,
+     "correct_tokens": 15319,
+     "ff_per_1k": 19.32241007898688
+    },
+    "short": {
+     "wrong_tokens": 2334,
+     "miss_rate": 0.04584404455869751,
+     "correct_tokens": 45756,
+     "ff_per_1k": 4.829967654515255
+    },
+    "tech": {
+     "wrong_tokens": 704,
+     "miss_rate": 0.10511363636363637,
+     "correct_tokens": 1544,
+     "ff_per_1k": 105.56994818652849
+    },
+    "term": {
+     "wrong_tokens": 1044,
+     "miss_rate": 0.12739463601532566,
+     "correct_tokens": 2567,
+     "ff_per_1k": 77.13283989092325
+    },
+    "typo": {
+     "wrong_tokens": 228,
+     "miss_rate": 0.013157894736842105,
+     "correct_tokens": 4891,
+     "ff_per_1k": 4.498057656920875
+    },
+    "runs": {
+     "n": 4786,
+     "detect_rate": 0.9684496447973255,
+     "early_rate": 0.0,
+     "mean_keys_to_detect": 6.6375404530744335
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.914375
+    }
+   },
+   "subs": {
+    "all": {
+     "wrong_tokens": 7235,
+     "miss_rate": 0.032066344160331724,
+     "correct_tokens": 51233,
+     "ff_per_1k": 7.280463763589874
+    },
+    "bg": {
+     "wrong_tokens": 4400,
+     "miss_rate": 0.024772727272727273,
+     "correct_tokens": 32502,
+     "ff_per_1k": 2.861362377699834
+    },
+    "code": {
+     "wrong_tokens": 338,
+     "miss_rate": 0.1301775147928994,
+     "correct_tokens": 1284,
+     "ff_per_1k": 18.69158878504673
+    },
+    "en": {
+     "wrong_tokens": 2835,
+     "miss_rate": 0.04338624338624339,
+     "correct_tokens": 18731,
+     "ff_per_1k": 14.948481127542577
+    },
+    "mixed_ep": {
+     "wrong_tokens": 4151,
+     "miss_rate": 0.04432666827270537,
+     "correct_tokens": 22565,
+     "ff_per_1k": 14.890316862397519
+    },
+    "name": {
+     "wrong_tokens": 495,
+     "miss_rate": 0.03838383838383838,
+     "correct_tokens": 3327,
+     "ff_per_1k": 3.907424105801022
+    },
+    "oov": {
+     "wrong_tokens": 961,
+     "miss_rate": 0.17793964620187305,
+     "correct_tokens": 4556,
+     "ff_per_1k": 46.312554872695344
+    },
+    "short": {
+     "wrong_tokens": 1988,
+     "miss_rate": 0.036720321931589535,
+     "correct_tokens": 14989,
+     "ff_per_1k": 13.343118286743612
+    },
+    "tech": {
+     "wrong_tokens": 618,
+     "miss_rate": 0.09870550161812297,
+     "correct_tokens": 1773,
+     "ff_per_1k": 75.01410039481105
+    },
+    "term": {
+     "wrong_tokens": 956,
+     "miss_rate": 0.1098326359832636,
+     "correct_tokens": 3057,
+     "ff_per_1k": 51.35754007196598
+    },
+    "typo": {
+     "wrong_tokens": 163,
+     "miss_rate": 0.03067484662576687,
+     "correct_tokens": 1304,
+     "ff_per_1k": 10.736196319018404
+    },
+    "runs": {
+     "n": 4117,
+     "detect_rate": 0.9417051250910857,
+     "early_rate": 0.0,
+     "mean_keys_to_detect": 5.965953056486974
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.935
+    }
+   },
+   "tatoeba": {
+    "all": {
+     "wrong_tokens": 7957,
+     "miss_rate": 0.025260776674626114,
+     "correct_tokens": 64106,
+     "ff_per_1k": 4.898137459832153
+    },
+    "bg": {
+     "wrong_tokens": 4902,
+     "miss_rate": 0.015299877600979192,
+     "correct_tokens": 38172,
+     "ff_per_1k": 1.6504243948443886
+    },
+    "code": {
+     "wrong_tokens": 318,
+     "miss_rate": 0.18867924528301888,
+     "correct_tokens": 1156,
+     "ff_per_1k": 28.546712802768166
+    },
+    "en": {
+     "wrong_tokens": 3055,
+     "miss_rate": 0.041243862520458266,
+     "correct_tokens": 25934,
+     "ff_per_1k": 9.678414436646873
+    },
+    "mixed_ep": {
+     "wrong_tokens": 4689,
+     "miss_rate": 0.04073363190445724,
+     "correct_tokens": 27311,
+     "ff_per_1k": 10.508586283914907
+    },
+    "name": {
+     "wrong_tokens": 407,
+     "miss_rate": 0.012285012285012284,
+     "correct_tokens": 3222,
+     "ff_per_1k": 0.931098696461825
+    },
+    "oov": {
+     "wrong_tokens": 840,
+     "miss_rate": 0.17023809523809524,
+     "correct_tokens": 4278,
+     "ff_per_1k": 48.15334268349696
+    },
+    "short": {
+     "wrong_tokens": 2135,
+     "miss_rate": 0.026697892271662763,
+     "correct_tokens": 18328,
+     "ff_per_1k": 8.075076385857704
+    },
+    "tech": {
+     "wrong_tokens": 656,
+     "miss_rate": 0.10823170731707317,
+     "correct_tokens": 1668,
+     "ff_per_1k": 71.34292565947243
+    },
+    "term": {
+     "wrong_tokens": 974,
+     "miss_rate": 0.13449691991786447,
+     "correct_tokens": 2824,
+     "ff_per_1k": 53.82436260623229
+    },
+    "typo": {
+     "wrong_tokens": 191,
+     "miss_rate": 0.005235602094240838,
+     "correct_tokens": 1735,
+     "ff_per_1k": 6.340057636887608
+    },
+    "runs": {
+     "n": 4130,
+     "detect_rate": 0.9692493946731234,
+     "early_rate": 0.0,
+     "mean_keys_to_detect": 5.866350237322009
+    },
+    "episodes": {
+     "n": 8000,
+     "exact": 0.94375
+    }
+   }
+  }
+ },
+ "val_grid": [
+  {
+   "te": 0.5,
+   "tm": 0.9,
+   "n": 2,
+   "ff_per_1k": 2.372845159989085,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9864532019704434,
+   "early_rate": 0.9125615763546798,
+   "keys_to_detect": 2.18039950062422,
+   "episode_exact": 0.9556666666666667
+  },
+  {
+   "te": 0.5,
+   "tm": 0.9,
+   "n": 3,
+   "ff_per_1k": 1.2813363863941059,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9886083743842364,
+   "early_rate": 0.7983374384236454,
+   "keys_to_detect": 2.989099968857054,
+   "episode_exact": 0.9703333333333334
+  },
+  {
+   "te": 0.5,
+   "tm": 0.9,
+   "n": 4,
+   "ff_per_1k": 1.008459192995361,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9864532019704434,
+   "early_rate": 0.6641009852216748,
+   "keys_to_detect": 3.7709113607990012,
+   "episode_exact": 0.9738333333333333
+  },
+  {
+   "te": 0.5,
+   "tm": 0.97,
+   "n": 2,
+   "ff_per_1k": 1.4474355475933418,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9873768472906403,
+   "early_rate": 0.8974753694581281,
+   "keys_to_detect": 2.279388836919239,
+   "episode_exact": 0.9676666666666667
+  },
+  {
+   "te": 0.5,
+   "tm": 0.97,
+   "n": 3,
+   "ff_per_1k": 1.032187644595252,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9886083743842364,
+   "early_rate": 0.7924876847290641,
+   "keys_to_detect": 3.0236686390532546,
+   "episode_exact": 0.9733333333333334
+  },
+  {
+   "te": 0.5,
+   "tm": 0.97,
+   "n": 4,
+   "ff_per_1k": 0.9491380639956339,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9864532019704434,
+   "early_rate": 0.6622536945812808,
+   "keys_to_detect": 3.7843320848938826,
+   "episode_exact": 0.9743333333333334
+  },
+  {
+   "te": 0.5,
+   "tm": 0.99,
+   "n": 2,
+   "ff_per_1k": 1.0559160961951428,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9879926108374384,
+   "early_rate": 0.8777709359605911,
+   "keys_to_detect": 2.4088501090682457,
+   "episode_exact": 0.973
+  },
+  {
+   "te": 0.5,
+   "tm": 0.99,
+   "n": 3,
+   "ff_per_1k": 0.9254096123957432,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9886083743842364,
+   "early_rate": 0.7823275862068966,
+   "keys_to_detect": 3.075054500155715,
+   "episode_exact": 0.9746666666666667
+  },
+  {
+   "te": 0.5,
+   "tm": 0.99,
+   "n": 4,
+   "ff_per_1k": 0.9135453865957976,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9864532019704434,
+   "early_rate": 0.6585591133004927,
+   "keys_to_detect": 3.8055555555555554,
+   "episode_exact": 0.9748333333333333
+  },
+  {
+   "te": 0.5,
+   "tm": 0.995,
+   "n": 2,
+   "ff_per_1k": 0.9728665155955248,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9879926108374384,
+   "early_rate": 0.8574507389162561,
+   "keys_to_detect": 2.5160486132751636,
+   "episode_exact": 0.974
+  },
+  {
+   "te": 0.5,
+   "tm": 0.995,
+   "n": 3,
+   "ff_per_1k": 0.9016811607958523,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9889162561576355,
+   "early_rate": 0.7755541871921182,
+   "keys_to_detect": 3.1204856787048567,
+   "episode_exact": 0.975
+  },
+  {
+   "te": 0.5,
+   "tm": 0.995,
+   "n": 4,
+   "ff_per_1k": 0.9016811607958523,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9864532019704434,
+   "early_rate": 0.6545566502463054,
+   "keys_to_detect": 3.8267790262172285,
+   "episode_exact": 0.975
+  },
+  {
+   "te": 0.5,
+   "tm": 0.999,
+   "n": 2,
+   "ff_per_1k": 0.9135453865957976,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9886083743842364,
+   "early_rate": 0.8060344827586207,
+   "keys_to_detect": 2.8682653379009655,
+   "episode_exact": 0.9748333333333333
+  },
+  {
+   "te": 0.5,
+   "tm": 0.999,
+   "n": 3,
+   "ff_per_1k": 0.9016811607958523,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9886083743842364,
+   "early_rate": 0.7395320197044335,
+   "keys_to_detect": 3.3270009342883835,
+   "episode_exact": 0.975
+  },
+  {
+   "te": 0.5,
+   "tm": 0.999,
+   "n": 4,
+   "ff_per_1k": 0.8898169349959069,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9861453201970444,
+   "early_rate": 0.6351600985221675,
+   "keys_to_detect": 3.921011551670309,
+   "episode_exact": 0.9751666666666666
+  },
+  {
+   "te": 0.5,
+   "tm": 2.0,
+   "n": 3,
+   "ff_per_1k": 0.8779527091959615,
+   "miss_rate": 0.012226512226512226,
+   "detect_rate": 0.9766009852216748,
+   "early_rate": 0.0,
+   "keys_to_detect": 6.182534678436318,
+   "episode_exact": 0.9751666666666666
+  },
+  {
+   "te": 0.7,
+   "tm": 0.9,
+   "n": 2,
+   "ff_per_1k": 2.1711533213900127,
+   "miss_rate": 0.013030888030888031,
+   "detect_rate": 0.9849137931034483,
+   "early_rate": 0.9125615763546798,
+   "keys_to_detect": 2.17786808377618,
+   "episode_exact": 0.9573333333333334
+  },
+  {
+   "te": 0.7,
+   "tm": 0.9,
+   "n": 3,
+   "ff_per_1k": 1.0203234187953065,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9867610837438424,
+   "early_rate": 0.7986453201970444,
+   "keys_to_detect": 2.988767550702028,
+   "episode_exact": 0.9725
+  },
+  {
+   "te": 0.7,
+   "tm": 0.9,
+   "n": 4,
+   "ff_per_1k": 0.7474462253965617,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9846059113300493,
+   "early_rate": 0.6644088669950738,
+   "keys_to_detect": 3.772357723577236,
+   "episode_exact": 0.9761666666666666
+  },
+  {
+   "te": 0.7,
+   "tm": 0.97,
+   "n": 2,
+   "ff_per_1k": 1.198286805794488,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9855295566502463,
+   "early_rate": 0.8977832512315271,
+   "keys_to_detect": 2.2774133083411434,
+   "episode_exact": 0.9696666666666667
+  },
+  {
+   "te": 0.7,
+   "tm": 0.97,
+   "n": 3,
+   "ff_per_1k": 0.7711746769964526,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9867610837438424,
+   "early_rate": 0.7927955665024631,
+   "keys_to_detect": 3.0234009360374414,
+   "episode_exact": 0.9755
+  },
+  {
+   "te": 0.7,
+   "tm": 0.97,
+   "n": 4,
+   "ff_per_1k": 0.6881250963968346,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9846059113300493,
+   "early_rate": 0.6625615763546798,
+   "keys_to_detect": 3.785803627267042,
+   "episode_exact": 0.9766666666666667
+  },
+  {
+   "te": 0.7,
+   "tm": 0.99,
+   "n": 2,
+   "ff_per_1k": 0.7949031285963435,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9861453201970444,
+   "early_rate": 0.8780788177339901,
+   "keys_to_detect": 2.407118326568842,
+   "episode_exact": 0.9751666666666666
+  },
+  {
+   "te": 0.7,
+   "tm": 0.99,
+   "n": 3,
+   "ff_per_1k": 0.6643966447969438,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9867610837438424,
+   "early_rate": 0.7826354679802956,
+   "keys_to_detect": 3.074882995319813,
+   "episode_exact": 0.977
+  },
+  {
+   "te": 0.7,
+   "tm": 0.99,
+   "n": 4,
+   "ff_per_1k": 0.6525324189969983,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9846059113300493,
+   "early_rate": 0.6588669950738916,
+   "keys_to_detect": 3.8070669168230142,
+   "episode_exact": 0.9771666666666666
+  },
+  {
+   "te": 0.7,
+   "tm": 0.995,
+   "n": 2,
+   "ff_per_1k": 0.7118535479967255,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9861453201970444,
+   "early_rate": 0.8577586206896551,
+   "keys_to_detect": 2.514517639712769,
+   "episode_exact": 0.9763333333333334
+  },
+  {
+   "te": 0.7,
+   "tm": 0.995,
+   "n": 3,
+   "ff_per_1k": 0.6406681931970529,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9870689655172413,
+   "early_rate": 0.7758620689655172,
+   "keys_to_detect": 3.1203992514036183,
+   "episode_exact": 0.9773333333333334
+  },
+  {
+   "te": 0.7,
+   "tm": 0.995,
+   "n": 4,
+   "ff_per_1k": 0.6406681931970529,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9846059113300493,
+   "early_rate": 0.6548645320197044,
+   "keys_to_detect": 3.828330206378987,
+   "episode_exact": 0.9773333333333334
+  },
+  {
+   "te": 0.7,
+   "tm": 0.999,
+   "n": 2,
+   "ff_per_1k": 0.6525324189969983,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9867610837438424,
+   "early_rate": 0.8063423645320197,
+   "keys_to_detect": 2.8673946957878313,
+   "episode_exact": 0.9771666666666666
+  },
+  {
+   "te": 0.7,
+   "tm": 0.999,
+   "n": 3,
+   "ff_per_1k": 0.6406681931970529,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9867610837438424,
+   "early_rate": 0.7398399014778325,
+   "keys_to_detect": 3.327301092043682,
+   "episode_exact": 0.9773333333333334
+  },
+  {
+   "te": 0.7,
+   "tm": 0.999,
+   "n": 4,
+   "ff_per_1k": 0.6288039673971075,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9842980295566502,
+   "early_rate": 0.6354679802955665,
+   "keys_to_detect": 3.9227400688145138,
+   "episode_exact": 0.9775
+  },
+  {
+   "te": 0.7,
+   "tm": 2.0,
+   "n": 3,
+   "ff_per_1k": 0.616939741597162,
+   "miss_rate": 0.013352638352638353,
+   "detect_rate": 0.9747536945812808,
+   "early_rate": 0.0,
+   "keys_to_detect": 6.18888186986734,
+   "episode_exact": 0.9775
+  },
+  {
+   "te": 0.8,
+   "tm": 0.9,
+   "n": 2,
+   "ff_per_1k": 2.0881037407903946,
+   "miss_rate": 0.014317889317889318,
+   "detect_rate": 0.9836822660098522,
+   "early_rate": 0.9134852216748769,
+   "keys_to_detect": 2.1777777777777776,
+   "episode_exact": 0.9571666666666667
+  },
+  {
+   "te": 0.8,
+   "tm": 0.9,
+   "n": 3,
+   "ff_per_1k": 0.9372738381956885,
+   "miss_rate": 0.01463963963963964,
+   "detect_rate": 0.9855295566502463,
+   "early_rate": 0.7995689655172413,
+   "keys_to_detect": 2.9906279287722586,
+   "episode_exact": 0.9723333333333334
+  },
+  {
+   "te": 0.8,
+   "tm": 0.9,
+   "n": 4,
+   "ff_per_1k": 0.6643966447969438,
+   "miss_rate": 0.01463963963963964,
+   "detect_rate": 0.9833743842364532,
+   "early_rate": 0.6653325123152709,
+   "keys_to_detect": 3.7761427676894175,
+   "episode_exact": 0.976
+  },
+  {
+   "te": 0.8,
+   "tm": 0.97,
+   "n": 2,
+   "ff_per_1k": 1.11523722519487,
+   "miss_rate": 0.01463963963963964,
+   "detect_rate": 0.9842980295566502,
+   "early_rate": 0.8987068965517241,
+   "keys_to_detect": 2.277447607131686,
+   "episode_exact": 0.9695
+  },
+  {
+   "te": 0.8,
+   "tm": 0.97,
+   "n": 3,
+   "ff_per_1k": 0.6881250963968346,
+   "miss_rate": 0.01463963963963964,
+   "detect_rate": 0.9855295566502463,
+   "early_rate": 0.7937192118226601,
+   "keys_to_detect": 3.025304592314902,
+   "episode_exact": 0.9753333333333334
+  },
+  {
+   "te": 0.8,
+   "tm": 0.97,
+   "n": 4,
+   "ff_per_1k": 0.6050755157972166,
+   "miss_rate": 0.01463963963963964,
+   "detect_rate": 0.9833743842364532,
+   "early_rate": 0.6634852216748769,
+   "keys_to_detect": 3.789605510331872,
+   "episode_exact": 0.9765
+  },
+  {
+   "te": 0.8,
+   "tm": 0.99,
+   "n": 2,
+   "ff_per_1k": 0.7118535479967255,
+   "miss_rate": 0.01463963963963964,
+   "detect_rate": 0.9849137931034483,
+   "early_rate": 0.8790024630541872,
+   "keys_to_detect": 2.4076273835573616,
+   "episode_exact": 0.975
+  },
+  {
+   "te": 0.8,
+   "tm": 0.99,
+   "n": 3,
+   "ff_per_1k": 0.5813470641973258,
+   "miss_rate": 0.01463963963963964,
+   "detect_rate": 0.9855295566502463,
+   "early_rate": 0.7835591133004927,
+   "keys_to_detect": 3.076850984067479,
+   "episode_exact": 0.9768333333333333
+  },
+  {
+   "te": 0.8,
+   "tm": 0.99,
+   "n": 4,
+   "ff_per_1k": 0.5694828383973803,
+   "miss_rate": 0.014800514800514801,
+   "detect_rate": 0.9833743842364532,
+   "early_rate": 0.6600985221674877,
+   "keys_to_detect": 3.8124608641202253,
+   "episode_exact": 0.977
+  },
+  {
+   "te": 0.8,
+   "tm": 0.995,
+   "n": 2,
+   "ff_per_1k": 0.6288039673971075,
+   "miss_rate": 0.01463963963963964,
+   "detect_rate": 0.9849137931034483,
+   "early_rate": 0.8586822660098522,
+   "keys_to_detect": 2.5157861831822443,
+   "episode_exact": 0.9761666666666666
+  },
+  {
+   "te": 0.8,
+   "tm": 0.995,
+   "n": 3,
+   "ff_per_1k": 0.557618612597435,
+   "miss_rate": 0.01463963963963964,
+   "detect_rate": 0.9858374384236454,
+   "early_rate": 0.7767857142857143,
+   "keys_to_detect": 3.122423485321674,
+   "episode_exact": 0.9771666666666666
+  },
+  {
+   "te": 0.8,
+   "tm": 0.995,
+   "n": 4,
+   "ff_per_1k": 0.557618612597435,
+   "miss_rate": 0.014800514800514801,
+   "detect_rate": 0.9833743842364532,
+   "early_rate": 0.6560960591133005,
+   "keys_to_detect": 3.8343769567939887,
+   "episode_exact": 0.9771666666666666
+  },
+  {
+   "te": 0.8,
+   "tm": 0.999,
+   "n": 2,
+   "ff_per_1k": 0.5694828383973803,
+   "miss_rate": 0.014800514800514801,
+   "detect_rate": 0.9855295566502463,
+   "early_rate": 0.8072660098522167,
+   "keys_to_detect": 2.873477038425492,
+   "episode_exact": 0.977
+  },
+  {
+   "te": 0.8,
+   "tm": 0.999,
+   "n": 3,
+   "ff_per_1k": 0.557618612597435,
+   "miss_rate": 0.014800514800514801,
+   "detect_rate": 0.9855295566502463,
+   "early_rate": 0.7407635467980296,
+   "keys_to_detect": 3.3339581380818495,
+   "episode_exact": 0.9771666666666666
+  },
+  {
+   "te": 0.8,
+   "tm": 0.999,
+   "n": 4,
+   "ff_per_1k": 0.5457543867974896,
+   "miss_rate": 0.014800514800514801,
+   "detect_rate": 0.9830665024630542,
+   "early_rate": 0.6363916256157636,
+   "keys_to_detect": 3.930472909489508,
+   "episode_exact": 0.9773333333333334
+  },
+  {
+   "te": 0.8,
+   "tm": 2.0,
+   "n": 3,
+   "ff_per_1k": 0.533890160997544,
+   "miss_rate": 0.014800514800514801,
+   "detect_rate": 0.9735221674876847,
+   "early_rate": 0.0,
+   "keys_to_detect": 6.202403542061986,
+   "episode_exact": 0.9773333333333334
+  },
+  {
+   "te": 0.9,
+   "tm": 0.9,
+   "n": 2,
+   "ff_per_1k": 1.7796338699918137,
+   "miss_rate": 0.019787644787644786,
+   "detect_rate": 0.979064039408867,
+   "early_rate": 0.9193349753694581,
+   "keys_to_detect": 2.188679245283019,
+   "episode_exact": 0.9558333333333333
+  },
+  {
+   "te": 0.9,
+   "tm": 0.9,
+   "n": 3,
+   "ff_per_1k": 0.616939741597162,
+   "miss_rate": 0.02027027027027027,
+   "detect_rate": 0.9809113300492611,
+   "early_rate": 0.8057266009852216,
+   "keys_to_detect": 3.0119271814187067,
+   "episode_exact": 0.9711666666666666
+  },
+  {
+   "te": 0.9,
+   "tm": 0.9,
+   "n": 4,
+   "ff_per_1k": 0.3440625481984173,
+   "miss_rate": 0.02027027027027027,
+   "detect_rate": 0.978756157635468,
+   "early_rate": 0.6705665024630542,
+   "keys_to_detect": 3.807486631016043,
+   "episode_exact": 0.9748333333333333
+  },
+  {
+   "te": 0.9,
+   "tm": 0.97,
+   "n": 2,
+   "ff_per_1k": 0.7949031285963435,
+   "miss_rate": 0.02027027027027027,
+   "detect_rate": 0.979679802955665,
+   "early_rate": 0.9048645320197044,
+   "keys_to_detect": 2.28975487115022,
+   "episode_exact": 0.9681666666666666
+  },
+  {
+   "te": 0.9,
+   "tm": 0.97,
+   "n": 3,
+   "ff_per_1k": 0.36779099979830815,
+   "miss_rate": 0.02027027027027027,
+   "detect_rate": 0.9809113300492611,
+   "early_rate": 0.7998768472906403,
+   "keys_to_detect": 3.04676710608914,
+   "episode_exact": 0.9741666666666666
+  },
+  {
+   "te": 0.9,
+   "tm": 0.97,
+   "n": 4,
+   "ff_per_1k": 0.28474141919869017,
+   "miss_rate": 0.02027027027027027,
+   "detect_rate": 0.978756157635468,
+   "early_rate": 0.6687192118226601,
+   "keys_to_detect": 3.8210128971374644,
+   "episode_exact": 0.9753333333333334
+  },
+  {
+   "te": 0.9,
+   "tm": 0.99,
+   "n": 2,
+   "ff_per_1k": 0.391519451398199,
+   "miss_rate": 0.02027027027027027,
+   "detect_rate": 0.9802955665024631,
+   "early_rate": 0.8851600985221675,
+   "keys_to_detect": 2.42179648241206,
+   "episode_exact": 0.9738333333333333
+  },
+  {
+   "te": 0.9,
+   "tm": 0.99,
+   "n": 3,
+   "ff_per_1k": 0.26101296759879933,
+   "miss_rate": 0.02027027027027027,
+   "detect_rate": 0.9809113300492611,
+   "early_rate": 0.7897167487684729,
+   "keys_to_detect": 3.098556183301946,
+   "episode_exact": 0.9756666666666667
+  },
+  {
+   "te": 0.9,
+   "tm": 0.99,
+   "n": 4,
+   "ff_per_1k": 0.2491487417988539,
+   "miss_rate": 0.02043114543114543,
+   "detect_rate": 0.978756157635468,
+   "early_rate": 0.6653325123152709,
+   "keys_to_detect": 3.843976093111041,
+   "episode_exact": 0.9758333333333333
+  },
+  {
+   "te": 0.9,
+   "tm": 0.995,
+   "n": 2,
+   "ff_per_1k": 0.308469870798581,
+   "miss_rate": 0.02043114543114543,
+   "detect_rate": 0.9802955665024631,
+   "early_rate": 0.8651477832512315,
+   "keys_to_detect": 2.5314070351758793,
+   "episode_exact": 0.9748333333333333
+  },
+  {
+   "te": 0.9,
+   "tm": 0.995,
+   "n": 3,
+   "ff_per_1k": 0.23728451599890849,
+   "miss_rate": 0.02043114543114543,
+   "detect_rate": 0.9812192118226601,
+   "early_rate": 0.7826354679802956,
+   "keys_to_detect": 3.146219014747411,
+   "episode_exact": 0.9758333333333333
+  },
+  {
+   "te": 0.9,
+   "tm": 0.995,
+   "n": 4,
+   "ff_per_1k": 0.23728451599890849,
+   "miss_rate": 0.02059202059202059,
+   "detect_rate": 0.978756157635468,
+   "early_rate": 0.6610221674876847,
+   "keys_to_detect": 3.867568417741428,
+   "episode_exact": 0.9758333333333333
+  },
+  {
+   "te": 0.9,
+   "tm": 0.999,
+   "n": 2,
+   "ff_per_1k": 0.2491487417988539,
+   "miss_rate": 0.020752895752895753,
+   "detect_rate": 0.9809113300492611,
+   "early_rate": 0.813115763546798,
+   "keys_to_detect": 2.8961079723791587,
+   "episode_exact": 0.9755
+  },
+  {
+   "te": 0.9,
+   "tm": 0.999,
+   "n": 3,
+   "ff_per_1k": 0.23728451599890849,
+   "miss_rate": 0.020752895752895753,
+   "detect_rate": 0.9809113300492611,
+   "early_rate": 0.7463054187192119,
+   "keys_to_detect": 3.361895794099184,
+   "episode_exact": 0.9756666666666667
+  },
+  {
+   "te": 0.9,
+   "tm": 0.999,
+   "n": 4,
+   "ff_per_1k": 0.22542029019896306,
+   "miss_rate": 0.020752895752895753,
+   "detect_rate": 0.978448275862069,
+   "early_rate": 0.6416256157635468,
+   "keys_to_detect": 3.9660163624921334,
+   "episode_exact": 0.9758333333333333
+  },
+  {
+   "te": 0.9,
+   "tm": 2.0,
+   "n": 3,
+   "ff_per_1k": 0.21355606439901764,
+   "miss_rate": 0.020752895752895753,
+   "detect_rate": 0.9689039408866995,
+   "early_rate": 0.0,
+   "keys_to_detect": 6.261836669844296,
+   "episode_exact": 0.9758333333333333
+  },
+  {
+   "te": 0.95,
+   "tm": 0.9,
+   "n": 2,
+   "ff_per_1k": 1.7440411925919774,
+   "miss_rate": 0.024292149292149293,
+   "detect_rate": 0.9756773399014779,
+   "early_rate": 0.9239532019704434,
+   "keys_to_detect": 2.1978542126853897,
+   "episode_exact": 0.952
+  },
+  {
+   "te": 0.95,
+   "tm": 0.9,
+   "n": 3,
+   "ff_per_1k": 0.5694828383973803,
+   "miss_rate": 0.024935649935649937,
+   "detect_rate": 0.9775246305418719,
+   "early_rate": 0.8100369458128078,
+   "keys_to_detect": 3.029291338582677,
+   "episode_exact": 0.9671666666666666
+  },
+  {
+   "te": 0.95,
+   "tm": 0.9,
+   "n": 4,
+   "ff_per_1k": 0.28474141919869017,
+   "miss_rate": 0.024935649935649937,
+   "detect_rate": 0.9753694581280788,
+   "early_rate": 0.6739532019704434,
+   "keys_to_detect": 3.832070707070707,
+   "episode_exact": 0.971
+  },
+  {
+   "te": 0.95,
+   "tm": 0.97,
+   "n": 2,
+   "ff_per_1k": 0.7593104511965072,
+   "miss_rate": 0.024774774774774775,
+   "detect_rate": 0.9762931034482759,
+   "early_rate": 0.9094827586206896,
+   "keys_to_detect": 2.2992746767581203,
+   "episode_exact": 0.9643333333333334
+  },
+  {
+   "te": 0.95,
+   "tm": 0.97,
+   "n": 3,
+   "ff_per_1k": 0.308469870798581,
+   "miss_rate": 0.024935649935649937,
+   "detect_rate": 0.9775246305418719,
+   "early_rate": 0.8041871921182266,
+   "keys_to_detect": 3.064251968503937,
+   "episode_exact": 0.9705
+  },
+  {
+   "te": 0.95,
+   "tm": 0.97,
+   "n": 4,
+   "ff_per_1k": 0.21355606439901764,
+   "miss_rate": 0.024935649935649937,
+   "detect_rate": 0.9753694581280788,
+   "early_rate": 0.6721059113300493,
+   "keys_to_detect": 3.8456439393939394,
+   "episode_exact": 0.9718333333333333
+  },
+  {
+   "te": 0.95,
+   "tm": 0.99,
+   "n": 2,
+   "ff_per_1k": 0.3440625481984173,
+   "miss_rate": 0.025096525096525095,
+   "detect_rate": 0.9766009852216748,
+   "early_rate": 0.8900862068965517,
+   "keys_to_detect": 2.430643127364439,
+   "episode_exact": 0.9698333333333333
+  },
+  {
+   "te": 0.95,
+   "tm": 0.99,
+   "n": 3,
+   "ff_per_1k": 0.1898276127991268,
+   "miss_rate": 0.025096525096525095,
+   "detect_rate": 0.9772167487684729,
+   "early_rate": 0.7940270935960592,
+   "keys_to_detect": 3.1146817895400125,
+   "episode_exact": 0.972
+  },
+  {
+   "te": 0.95,
+   "tm": 0.99,
+   "n": 4,
+   "ff_per_1k": 0.17796338699918138,
+   "miss_rate": 0.025257400257400257,
+   "detect_rate": 0.9750615763546798,
+   "early_rate": 0.6687192118226601,
+   "keys_to_detect": 3.8673823808020207,
+   "episode_exact": 0.9721666666666666
+  },
+  {
+   "te": 0.95,
+   "tm": 0.995,
+   "n": 2,
+   "ff_per_1k": 0.2491487417988539,
+   "miss_rate": 0.025257400257400257,
+   "detect_rate": 0.9766009852216748,
+   "early_rate": 0.8700738916256158,
+   "keys_to_detect": 2.541298865069357,
+   "episode_exact": 0.971
+  },
+  {
+   "te": 0.95,
+   "tm": 0.995,
+   "n": 3,
+   "ff_per_1k": 0.16609916119923596,
+   "miss_rate": 0.025257400257400257,
+   "detect_rate": 0.9775246305418719,
+   "early_rate": 0.7869458128078818,
+   "keys_to_detect": 3.1628346456692915,
+   "episode_exact": 0.9721666666666666
+  },
+  {
+   "te": 0.95,
+   "tm": 0.995,
+   "n": 4,
+   "ff_per_1k": 0.16609916119923596,
+   "miss_rate": 0.02541827541827542,
+   "detect_rate": 0.9750615763546798,
+   "early_rate": 0.6644088669950738,
+   "keys_to_detect": 3.8910640985159457,
+   "episode_exact": 0.9721666666666666
+  },
+  {
+   "te": 0.95,
+   "tm": 0.999,
+   "n": 2,
+   "ff_per_1k": 0.17796338699918138,
+   "miss_rate": 0.02557915057915058,
+   "detect_rate": 0.9772167487684729,
+   "early_rate": 0.8180418719211823,
+   "keys_to_detect": 2.9083175803402646,
+   "episode_exact": 0.9718333333333333
+  },
+  {
+   "te": 0.95,
+   "tm": 0.999,
+   "n": 3,
+   "ff_per_1k": 0.16609916119923596,
+   "miss_rate": 0.02557915057915058,
+   "detect_rate": 0.9772167487684729,
+   "early_rate": 0.750615763546798,
+   "keys_to_detect": 3.3796471329552613,
+   "episode_exact": 0.972
+  },
+  {
+   "te": 0.95,
+   "tm": 0.999,
+   "n": 4,
+   "ff_per_1k": 0.1542349353992905,
+   "miss_rate": 0.02557915057915058,
+   "detect_rate": 0.9747536945812808,
+   "early_rate": 0.6450123152709359,
+   "keys_to_detect": 3.9902084649399874,
+   "episode_exact": 0.9721666666666666
+  },
+  {
+   "te": 0.95,
+   "tm": 2.0,
+   "n": 3,
+   "ff_per_1k": 0.14237070959934509,
+   "miss_rate": 0.02557915057915058,
+   "detect_rate": 0.9652093596059114,
+   "early_rate": 0.0,
+   "keys_to_detect": 6.306858054226475,
+   "episode_exact": 0.9721666666666666
+  },
+  {
+   "te": 0.98,
+   "tm": 0.9,
+   "n": 2,
+   "ff_per_1k": 1.7203127409920866,
+   "miss_rate": 0.026061776061776062,
+   "detect_rate": 0.9725985221674877,
+   "early_rate": 0.9248768472906403,
+   "keys_to_detect": 2.1994301994301995,
+   "episode_exact": 0.9503333333333334
+  },
+  {
+   "te": 0.98,
+   "tm": 0.9,
+   "n": 3,
+   "ff_per_1k": 0.5457543867974896,
+   "miss_rate": 0.02734877734877735,
+   "detect_rate": 0.9735221674876847,
+   "early_rate": 0.8112684729064039,
+   "keys_to_detect": 3.034471853257432,
+   "episode_exact": 0.9645
+  },
+  {
+   "te": 0.98,
+   "tm": 0.9,
+   "n": 4,
+   "ff_per_1k": 0.23728451599890849,
+   "miss_rate": 0.02750965250965251,
+   "detect_rate": 0.9710591133004927,
+   "early_rate": 0.6751847290640394,
+   "keys_to_detect": 3.8430564362714015,
+   "episode_exact": 0.9685
+  },
+  {
+   "te": 0.98,
+   "tm": 0.97,
+   "n": 2,
+   "ff_per_1k": 0.7118535479967255,
+   "miss_rate": 0.02750965250965251,
+   "detect_rate": 0.9719827586206896,
+   "early_rate": 0.9113300492610837,
+   "keys_to_detect": 2.300601837187203,
+   "episode_exact": 0.962
+  },
+  {
+   "te": 0.98,
+   "tm": 0.97,
+   "n": 3,
+   "ff_per_1k": 0.26101296759879933,
+   "miss_rate": 0.02783140283140283,
+   "detect_rate": 0.9729064039408867,
+   "early_rate": 0.8060344827586207,
+   "keys_to_detect": 3.071518987341772,
+   "episode_exact": 0.9678333333333333
+  },
+  {
+   "te": 0.98,
+   "tm": 0.97,
+   "n": 4,
+   "ff_per_1k": 0.1542349353992905,
+   "miss_rate": 0.02783140283140283,
+   "detect_rate": 0.9707512315270936,
+   "early_rate": 0.6736453201970444,
+   "keys_to_detect": 3.858547415160165,
+   "episode_exact": 0.9693333333333334
+  },
+  {
+   "te": 0.98,
+   "tm": 0.99,
+   "n": 2,
+   "ff_per_1k": 0.2966056449986356,
+   "miss_rate": 0.027992277992277992,
+   "detect_rate": 0.9716748768472906,
+   "early_rate": 0.8922413793103449,
+   "keys_to_detect": 2.432192648922687,
+   "episode_exact": 0.9671666666666666
+  },
+  {
+   "te": 0.98,
+   "tm": 0.99,
+   "n": 3,
+   "ff_per_1k": 0.14237070959934509,
+   "miss_rate": 0.027992277992277992,
+   "detect_rate": 0.9722906403940886,
+   "early_rate": 0.7958743842364532,
+   "keys_to_detect": 3.121595946801773,
+   "episode_exact": 0.9693333333333334
+  },
+  {
+   "te": 0.98,
+   "tm": 0.99,
+   "n": 4,
+   "ff_per_1k": 0.11864225799945424,
+   "miss_rate": 0.028474903474903474,
+   "detect_rate": 0.9701354679802956,
+   "early_rate": 0.6708743842364532,
+   "keys_to_detect": 3.882576959695335,
+   "episode_exact": 0.9693333333333334
+  },
+  {
+   "te": 0.98,
+   "tm": 0.995,
+   "n": 2,
+   "ff_per_1k": 0.20169183859907222,
+   "miss_rate": 0.028474903474903474,
+   "detect_rate": 0.9716748768472906,
+   "early_rate": 0.8728448275862069,
+   "keys_to_detect": 2.5453105196451205,
+   "episode_exact": 0.968
+  },
+  {
+   "te": 0.98,
+   "tm": 0.995,
+   "n": 3,
+   "ff_per_1k": 0.11864225799945424,
+   "miss_rate": 0.028474903474903474,
+   "detect_rate": 0.9725985221674877,
+   "early_rate": 0.7894088669950738,
+   "keys_to_detect": 3.1722063944286165,
+   "episode_exact": 0.9691666666666666
+  },
+  {
+   "te": 0.98,
+   "tm": 0.995,
+   "n": 4,
+   "ff_per_1k": 0.0949138063995634,
+   "miss_rate": 0.028635778635778635,
+   "detect_rate": 0.9701354679802956,
+   "early_rate": 0.666564039408867,
+   "keys_to_detect": 3.906378927324659,
+   "episode_exact": 0.9695
+  },
+  {
+   "te": 0.98,
+   "tm": 0.999,
+   "n": 2,
+   "ff_per_1k": 0.10677803219950882,
+   "miss_rate": 0.028796653796653797,
+   "detect_rate": 0.9722906403940886,
+   "early_rate": 0.8205049261083743,
+   "keys_to_detect": 2.914819506016466,
+   "episode_exact": 0.9691666666666666
+  },
+  {
+   "te": 0.98,
+   "tm": 0.999,
+   "n": 3,
+   "ff_per_1k": 0.0949138063995634,
+   "miss_rate": 0.028796653796653797,
+   "detect_rate": 0.9722906403940886,
+   "early_rate": 0.7530788177339901,
+   "keys_to_detect": 3.3904369854338188,
+   "episode_exact": 0.9693333333333334
+  },
+  {
+   "te": 0.98,
+   "tm": 0.999,
+   "n": 4,
+   "ff_per_1k": 0.08304958059961798,
+   "miss_rate": 0.028796653796653797,
+   "detect_rate": 0.9698275862068966,
+   "early_rate": 0.6471674876847291,
+   "keys_to_detect": 4.006666666666667,
+   "episode_exact": 0.9695
+  },
+  {
+   "te": 0.98,
+   "tm": 2.0,
+   "n": 3,
+   "ff_per_1k": 0.07118535479967254,
+   "miss_rate": 0.029118404118404117,
+   "detect_rate": 0.9599753694581281,
+   "early_rate": 0.0,
+   "keys_to_detect": 6.345413726747915,
+   "episode_exact": 0.9691666666666666
+  },
+  {
+   "te": 0.99,
+   "tm": 0.9,
+   "n": 2,
+   "ff_per_1k": 1.7203127409920866,
+   "miss_rate": 0.026544401544401543,
+   "detect_rate": 0.9716748768472906,
+   "early_rate": 0.9248768472906403,
+   "keys_to_detect": 2.1986692015209126,
+   "episode_exact": 0.95
+  },
+  {
+   "te": 0.99,
+   "tm": 0.9,
+   "n": 3,
+   "ff_per_1k": 0.5457543867974896,
+   "miss_rate": 0.02895752895752896,
+   "detect_rate": 0.9716748768472906,
+   "early_rate": 0.812192118226601,
+   "keys_to_detect": 3.038339670468948,
+   "episode_exact": 0.963
+  },
+  {
+   "te": 0.99,
+   "tm": 0.9,
+   "n": 4,
+   "ff_per_1k": 0.22542029019896306,
+   "miss_rate": 0.030566280566280565,
+   "detect_rate": 0.9676724137931034,
+   "early_rate": 0.6761083743842364,
+   "keys_to_detect": 3.8552338530066814,
+   "episode_exact": 0.9656666666666667
+  },
+  {
+   "te": 0.99,
+   "tm": 0.97,
+   "n": 2,
+   "ff_per_1k": 0.7118535479967255,
+   "miss_rate": 0.029118404118404117,
+   "detect_rate": 0.9701354679802956,
+   "early_rate": 0.9125615763546798,
+   "keys_to_detect": 2.3011742304030465,
+   "episode_exact": 0.9605
+  },
+  {
+   "te": 0.99,
+   "tm": 0.97,
+   "n": 3,
+   "ff_per_1k": 0.26101296759879933,
+   "miss_rate": 0.030083655083655084,
+   "detect_rate": 0.9704433497536946,
+   "early_rate": 0.8069581280788177,
+   "keys_to_detect": 3.0758248730964466,
+   "episode_exact": 0.9658333333333333
+  },
+  {
+   "te": 0.99,
+   "tm": 0.97,
+   "n": 4,
+   "ff_per_1k": 0.14237070959934509,
+   "miss_rate": 0.03104890604890605,
+   "detect_rate": 0.9670566502463054,
+   "early_rate": 0.6745689655172413,
+   "keys_to_detect": 3.8704234320280166,
+   "episode_exact": 0.9663333333333334
+  },
+  {
+   "te": 0.99,
+   "tm": 0.99,
+   "n": 2,
+   "ff_per_1k": 0.2966056449986356,
+   "miss_rate": 0.030566280566280565,
+   "detect_rate": 0.9682881773399015,
+   "early_rate": 0.8937807881773399,
+   "keys_to_detect": 2.4308426073131955,
+   "episode_exact": 0.9646666666666667
+  },
+  {
+   "te": 0.99,
+   "tm": 0.99,
+   "n": 3,
+   "ff_per_1k": 0.14237070959934509,
+   "miss_rate": 0.030727155727155727,
+   "detect_rate": 0.9689039408866995,
+   "early_rate": 0.7971059113300493,
+   "keys_to_detect": 3.125198601843025,
+   "episode_exact": 0.9666666666666667
+  },
+  {
+   "te": 0.99,
+   "tm": 0.99,
+   "n": 4,
+   "ff_per_1k": 0.10677803219950882,
+   "miss_rate": 0.03185328185328185,
+   "detect_rate": 0.9658251231527094,
+   "early_rate": 0.6717980295566502,
+   "keys_to_detect": 3.893528849218999,
+   "episode_exact": 0.9661666666666666
+  },
+  {
+   "te": 0.99,
+   "tm": 0.995,
+   "n": 2,
+   "ff_per_1k": 0.20169183859907222,
+   "miss_rate": 0.031692406692406694,
+   "detect_rate": 0.9670566502463054,
+   "early_rate": 0.874692118226601,
+   "keys_to_detect": 2.5399554282075774,
+   "episode_exact": 0.9648333333333333
+  },
+  {
+   "te": 0.99,
+   "tm": 0.995,
+   "n": 3,
+   "ff_per_1k": 0.10677803219950882,
+   "miss_rate": 0.03201415701415702,
+   "detect_rate": 0.9676724137931034,
+   "early_rate": 0.790948275862069,
+   "keys_to_detect": 3.1727648743238945,
+   "episode_exact": 0.9658333333333333
+  },
+  {
+   "te": 0.99,
+   "tm": 0.995,
+   "n": 4,
+   "ff_per_1k": 0.07118535479967254,
+   "miss_rate": 0.032335907335907334,
+   "detect_rate": 0.9649014778325123,
+   "early_rate": 0.6674876847290641,
+   "keys_to_detect": 3.914167198468411,
+   "episode_exact": 0.9661666666666666
+  },
+  {
+   "te": 0.99,
+   "tm": 0.999,
+   "n": 2,
+   "ff_per_1k": 0.08304958059961798,
+   "miss_rate": 0.03265765765765766,
+   "detect_rate": 0.9667487684729064,
+   "early_rate": 0.8226600985221675,
+   "keys_to_detect": 2.912420382165605,
+   "episode_exact": 0.9656666666666667
+  },
+  {
+   "te": 0.99,
+   "tm": 0.999,
+   "n": 3,
+   "ff_per_1k": 0.07118535479967254,
+   "miss_rate": 0.03265765765765766,
+   "detect_rate": 0.9667487684729064,
+   "early_rate": 0.7546182266009852,
+   "keys_to_detect": 3.3939490445859875,
+   "episode_exact": 0.9658333333333333
+  },
+  {
+   "te": 0.99,
+   "tm": 0.999,
+   "n": 4,
+   "ff_per_1k": 0.05932112899972712,
+   "miss_rate": 0.03265765765765766,
+   "detect_rate": 0.9642857142857143,
+   "early_rate": 0.6480911330049262,
+   "keys_to_detect": 4.015006385696041,
+   "episode_exact": 0.966
+  },
+  {
+   "te": 0.99,
+   "tm": 2.0,
+   "n": 3,
+   "ff_per_1k": 0.0474569031997817,
+   "miss_rate": 0.033301158301158304,
+   "detect_rate": 0.9538177339901478,
+   "early_rate": 0.0,
+   "keys_to_detect": 6.3692704970949,
+   "episode_exact": 0.9655
+  },
+  {
+   "te": 0.995,
+   "tm": 0.9,
+   "n": 2,
+   "ff_per_1k": 1.7203127409920866,
+   "miss_rate": 0.027187902187902187,
+   "detect_rate": 0.9704433497536946,
+   "early_rate": 0.9251847290640394,
+   "keys_to_detect": 2.1995558375634516,
+   "episode_exact": 0.9495
+  },
+  {
+   "te": 0.995,
+   "tm": 0.9,
+   "n": 3,
+   "ff_per_1k": 0.5457543867974896,
+   "miss_rate": 0.03120978120978121,
+   "detect_rate": 0.9685960591133005,
+   "early_rate": 0.8134236453201971,
+   "keys_to_detect": 3.043229497774952,
+   "episode_exact": 0.9608333333333333
+  },
+  {
+   "te": 0.995,
+   "tm": 0.9,
+   "n": 4,
+   "ff_per_1k": 0.21355606439901764,
+   "miss_rate": 0.0341055341055341,
+   "detect_rate": 0.9633620689655172,
+   "early_rate": 0.6773399014778325,
+   "keys_to_detect": 3.868328539469479,
+   "episode_exact": 0.9625
+  },
+  {
+   "te": 0.995,
+   "tm": 0.97,
+   "n": 2,
+   "ff_per_1k": 0.7118535479967255,
+   "miss_rate": 0.03137065637065637,
+   "detect_rate": 0.9670566502463054,
+   "early_rate": 0.9141009852216748,
+   "keys_to_detect": 2.3014963387456224,
+   "episode_exact": 0.9585
+  },
+  {
+   "te": 0.995,
+   "tm": 0.97,
+   "n": 3,
+   "ff_per_1k": 0.26101296759879933,
+   "miss_rate": 0.033301158301158304,
+   "detect_rate": 0.9661330049261084,
+   "early_rate": 0.8088054187192119,
+   "keys_to_detect": 3.0806246016571066,
+   "episode_exact": 0.9626666666666667
+  },
+  {
+   "te": 0.995,
+   "tm": 0.97,
+   "n": 4,
+   "ff_per_1k": 0.13050648379939966,
+   "miss_rate": 0.03507078507078507,
+   "detect_rate": 0.9618226600985221,
+   "early_rate": 0.6758004926108374,
+   "keys_to_detect": 3.8818822023047375,
+   "episode_exact": 0.9626666666666667
+  },
+  {
+   "te": 0.995,
+   "tm": 0.99,
+   "n": 2,
+   "ff_per_1k": 0.2966056449986356,
+   "miss_rate": 0.03362290862290862,
+   "detect_rate": 0.9636699507389163,
+   "early_rate": 0.895320197044335,
+   "keys_to_detect": 2.429073482428115,
+   "episode_exact": 0.9618333333333333
+  },
+  {
+   "te": 0.995,
+   "tm": 0.99,
+   "n": 3,
+   "ff_per_1k": 0.14237070959934509,
+   "miss_rate": 0.03474903474903475,
+   "detect_rate": 0.9633620689655172,
+   "early_rate": 0.7992610837438424,
+   "keys_to_detect": 3.1294343240651967,
+   "episode_exact": 0.9628333333333333
+  },
+  {
+   "te": 0.995,
+   "tm": 0.99,
+   "n": 4,
+   "ff_per_1k": 0.0949138063995634,
+   "miss_rate": 0.036036036036036036,
+   "detect_rate": 0.9602832512315271,
+   "early_rate": 0.6730295566502463,
+   "keys_to_detect": 3.9047771721705673,
+   "episode_exact": 0.9623333333333334
+  },
+  {
+   "te": 0.995,
+   "tm": 0.995,
+   "n": 2,
+   "ff_per_1k": 0.20169183859907222,
+   "miss_rate": 0.03571428571428571,
+   "detect_rate": 0.9612068965517241,
+   "early_rate": 0.8765394088669951,
+   "keys_to_detect": 2.5374759769378605,
+   "episode_exact": 0.961
+  },
+  {
+   "te": 0.995,
+   "tm": 0.995,
+   "n": 3,
+   "ff_per_1k": 0.10677803219950882,
+   "miss_rate": 0.03635778635778636,
+   "detect_rate": 0.9618226600985221,
+   "early_rate": 0.7931034482758621,
+   "keys_to_detect": 3.1776568501920615,
+   "episode_exact": 0.9616666666666667
+  },
+  {
+   "te": 0.995,
+   "tm": 0.995,
+   "n": 4,
+   "ff_per_1k": 0.05932112899972712,
+   "miss_rate": 0.03684041184041184,
+   "detect_rate": 0.959051724137931,
+   "early_rate": 0.6687192118226601,
+   "keys_to_detect": 3.925521669341894,
+   "episode_exact": 0.962
+  },
+  {
+   "te": 0.995,
+   "tm": 0.999,
+   "n": 2,
+   "ff_per_1k": 0.05932112899972712,
+   "miss_rate": 0.038288288288288286,
+   "detect_rate": 0.9596674876847291,
+   "early_rate": 0.8257389162561576,
+   "keys_to_detect": 2.911132499197947,
+   "episode_exact": 0.9608333333333333
+  },
+  {
+   "te": 0.995,
+   "tm": 0.999,
+   "n": 3,
+   "ff_per_1k": 0.0474569031997817,
+   "miss_rate": 0.038288288288288286,
+   "detect_rate": 0.9596674876847291,
+   "early_rate": 0.7573891625615764,
+   "keys_to_detect": 3.3991017003529036,
+   "episode_exact": 0.961
+  },
+  {
+   "te": 0.995,
+   "tm": 0.999,
+   "n": 4,
+   "ff_per_1k": 0.03559267739983627,
+   "miss_rate": 0.038288288288288286,
+   "detect_rate": 0.9572044334975369,
+   "early_rate": 0.6496305418719212,
+   "keys_to_detect": 4.026696687037632,
+   "episode_exact": 0.9611666666666666
+  },
+  {
+   "te": 0.995,
+   "tm": 2.0,
+   "n": 3,
+   "ff_per_1k": 0.02372845159989085,
+   "miss_rate": 0.03973616473616474,
+   "detect_rate": 0.9458128078817734,
+   "early_rate": 0.0,
+   "keys_to_detect": 6.404947916666667,
+   "episode_exact": 0.9598333333333333
+  },
+  {
+   "te": 0.998,
+   "tm": 0.9,
+   "n": 2,
+   "ff_per_1k": 1.7203127409920866,
+   "miss_rate": 0.03362290862290862,
+   "detect_rate": 0.9645935960591133,
+   "early_rate": 0.9338054187192119,
+   "keys_to_detect": 2.22023619533993,
+   "episode_exact": 0.943
+  },
+  {
+   "te": 0.998,
+   "tm": 0.9,
+   "n": 3,
+   "ff_per_1k": 0.5457543867974896,
+   "miss_rate": 0.039897039897039896,
+   "detect_rate": 0.9602832512315271,
+   "early_rate": 0.8229679802955665,
+   "keys_to_detect": 3.0823982045527414,
+   "episode_exact": 0.952
+  },
+  {
+   "te": 0.998,
+   "tm": 0.9,
+   "n": 4,
+   "ff_per_1k": 0.21355606439901764,
+   "miss_rate": 0.04504504504504504,
+   "detect_rate": 0.9538177339901478,
+   "early_rate": 0.6893472906403941,
+   "keys_to_detect": 3.937701743060039,
+   "episode_exact": 0.9511666666666667
+  },
+  {
+   "te": 0.998,
+   "tm": 0.97,
+   "n": 2,
+   "ff_per_1k": 0.7118535479967255,
+   "miss_rate": 0.03812741312741313,
+   "detect_rate": 0.9612068965517241,
+   "early_rate": 0.9230295566502463,
+   "keys_to_detect": 2.3244714926329277,
+   "episode_exact": 0.9515
+  },
+  {
+   "te": 0.998,
+   "tm": 0.97,
+   "n": 3,
+   "ff_per_1k": 0.26101296759879933,
+   "miss_rate": 0.04231016731016731,
+   "detect_rate": 0.957820197044335,
+   "early_rate": 0.8189655172413793,
+   "keys_to_detect": 3.1221472195435553,
+   "episode_exact": 0.9536666666666667
+  },
+  {
+   "te": 0.998,
+   "tm": 0.97,
+   "n": 4,
+   "ff_per_1k": 0.13050648379939966,
+   "miss_rate": 0.04617117117117117,
+   "detect_rate": 0.9522783251231527,
+   "early_rate": 0.688115763546798,
+   "keys_to_detect": 3.9527966375687034,
+   "episode_exact": 0.9513333333333334
+  },
+  {
+   "te": 0.998,
+   "tm": 0.99,
+   "n": 2,
+   "ff_per_1k": 0.2966056449986356,
+   "miss_rate": 0.04231016731016731,
+   "detect_rate": 0.9556650246305419,
+   "early_rate": 0.9057881773399015,
+   "keys_to_detect": 2.4536082474226806,
+   "episode_exact": 0.9528333333333333
+  },
+  {
+   "te": 0.998,
+   "tm": 0.99,
+   "n": 3,
+   "ff_per_1k": 0.14237070959934509,
+   "miss_rate": 0.044723294723294726,
+   "detect_rate": 0.9544334975369458,
+   "early_rate": 0.8106527093596059,
+   "keys_to_detect": 3.174193548387097,
+   "episode_exact": 0.9528333333333333
+  },
+  {
+   "te": 0.998,
+   "tm": 0.99,
+   "n": 4,
+   "ff_per_1k": 0.0949138063995634,
+   "miss_rate": 0.04745817245817246,
+   "detect_rate": 0.9501231527093597,
+   "early_rate": 0.6853448275862069,
+   "keys_to_detect": 3.9753726506804927,
+   "episode_exact": 0.9506666666666667
+  },
+  {
+   "te": 0.998,
+   "tm": 0.995,
+   "n": 2,
+   "ff_per_1k": 0.20169183859907222,
+   "miss_rate": 0.045527670527670525,
+   "detect_rate": 0.9519704433497537,
+   "early_rate": 0.8879310344827587,
+   "keys_to_detect": 2.5624191461837,
+   "episode_exact": 0.9506666666666667
+  },
+  {
+   "te": 0.998,
+   "tm": 0.995,
+   "n": 3,
+   "ff_per_1k": 0.10677803219950882,
+   "miss_rate": 0.0472972972972973,
+   "detect_rate": 0.9516625615763546,
+   "early_rate": 0.8048029556650246,
+   "keys_to_detect": 3.221287609187965,
+   "episode_exact": 0.9506666666666667
+  },
+  {
+   "te": 0.998,
+   "tm": 0.995,
+   "n": 4,
+   "ff_per_1k": 0.05932112899972712,
+   "miss_rate": 0.04906692406692407,
+   "detect_rate": 0.9479679802955665,
+   "early_rate": 0.6813423645320197,
+   "keys_to_detect": 3.9961026307242613,
+   "episode_exact": 0.9495
+  },
+  {
+   "te": 0.998,
+   "tm": 0.999,
+   "n": 2,
+   "ff_per_1k": 0.05932112899972712,
+   "miss_rate": 0.05308880308880309,
+   "detect_rate": 0.9461206896551724,
+   "early_rate": 0.8402093596059114,
+   "keys_to_detect": 2.929710380735438,
+   "episode_exact": 0.9465
+  },
+  {
+   "te": 0.998,
+   "tm": 0.999,
+   "n": 3,
+   "ff_per_1k": 0.0474569031997817,
+   "miss_rate": 0.053732303732303734,
+   "detect_rate": 0.9458128078817734,
+   "early_rate": 0.7718596059113301,
+   "keys_to_detect": 3.4410807291666665,
+   "episode_exact": 0.946
+  },
+  {
+   "te": 0.998,
+   "tm": 0.999,
+   "n": 4,
+   "ff_per_1k": 0.03559267739983627,
+   "miss_rate": 0.0546975546975547,
+   "detect_rate": 0.9424261083743842,
+   "early_rate": 0.6644088669950738,
+   "keys_to_detect": 4.09702711532179,
+   "episode_exact": 0.945
+  },
+  {
+   "te": 0.998,
+   "tm": 2.0,
+   "n": 3,
+   "ff_per_1k": 0.02372845159989085,
+   "miss_rate": 0.05888030888030888,
+   "detect_rate": 0.9279556650246306,
+   "early_rate": 0.0,
+   "keys_to_detect": 6.580955540809556,
+   "episode_exact": 0.941
+  }
+ ],
+ "picks": {
+  "model-safe": {
+   "te": 0.5,
+   "tm": 0.9,
+   "n": 3
+  },
+  "model-balanced": {
+   "te": 0.7,
+   "tm": 0.999,
+   "n": 4
+  },
+  "model-wordend": {
+   "te": 0.5,
+   "tm": 2.0,
+   "n": 3
+  }
+ },
+ "model": {
+  "params": 1412033,
+  "ms_per_key_cpu_1thread": 0.052093041500484105
+ }
+}

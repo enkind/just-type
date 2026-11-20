@@ -1,0 +1,8 @@
+.venv/
+data/
+bench/*.log
+__pycache__/
+live/.build/
+live/build/
+bench/model_v*.pt
+results/live/*.out
