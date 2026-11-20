@@ -99,9 +99,7 @@ final class MenuBarApp: NSObject, NSApplicationDelegate, NSMenuDelegate {
 
     func refreshIcon() {
         guard let b = item?.button else { return }
-        let name = suspended || (engine?.tripped ?? false) ? "pause.circle" : tap == nil ? "exclamationmark.triangle" : "keyboard"
-        b.image = NSImage(systemSymbolName: name, accessibilityDescription: "JustType")
-        b.image?.isTemplate = true
+        b.image = MenuIcon.image(suspended || (engine?.tripped ?? false) ? .paused : tap == nil ? .needsPermission : .normal)
         b.appearsDisabled = !activeHere
         b.toolTip = suspended ? "JustType stepped aside after input timeouts"
             : (engine?.tripped ?? false) ? "JustType paused itself for a minute (too many corrections)"
